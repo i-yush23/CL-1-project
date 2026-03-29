@@ -1,23 +1,26 @@
-"""
-normalizer.py
-HinglishNormalizer: rule-based text normalization for Hinglish social-media text.
-
-Steps applied (in order):
-  1. Lowercase.
-  2. Expand common Hinglish abbreviations / SMS-slang.
-  3. Compress elongated characters (e.g. 'helloooo' → 'hello').
-  4. Basic English spell-check on purely alphabetic tokens.
-"""
-
+import os
+import sys
 import re
+
+# Add the project root to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 from spellchecker import SpellChecker
-
+from src.features.hindi_normalizer import normalize_hindi_token
 
 # ---------------------------------------------------------------------------
-# Abbreviation / slang dictionary
+# Configuration & Dictionaries
 # ---------------------------------------------------------------------------
-SLANG_DICT: dict[str, str] = {
-    # General internet / SMS slang
+HINGLISH_SLANG: dict[str, str] = {
+    "bc":    "bahenchod",
+    "h":     "hai",
+    "k":     "okay",
+    "bhai":  "bhai",
+    "kya":   "kya",
+    "nahi":  "nahi",
+}
+
+ENGLISH_SLANG: dict[str, str] = {
     "gm":    "good morning",
     "gn":    "good night",
     "lol":   "laughing out loud",
@@ -27,105 +30,128 @@ SLANG_DICT: dict[str, str] = {
     "imo":   "in my opinion",
     "ngl":   "not gonna lie",
     "idk":   "i don't know",
-    "gg":    "good game",
-    # Hinglish-specific
-    "bc":    "bahenchod",      # common Hinglish expletive abbreviation (flagged)
-    "bhai":  "bhai",           # already normalised form – keep as-is anchor
-    "kya":   "kya",
-    "nahi":  "nahi",
-    "h":     "hai",            # very common 'h' → 'hai' in Hinglish
-    "k":     "okay",
-    "hbu":   "how about you",
     "wbu":   "what about you",
+    "hbu":   "how about you",
     "ty":    "thank you",
     "np":    "no problem",
 }
 
-# Regex: match whole word only, case-insensitive
-_SLANG_RE = re.compile(
-    r'\b(' + '|'.join(re.escape(k) for k in SLANG_DICT) + r')\b',
-    re.IGNORECASE,
-)
-
-# Elongation: 3+ repeated characters → at most 2
 _ELONGATION_RE = re.compile(r'(.)\1{2,}')
 
-
-class HinglishNormalizer:
+class CodeMixedNormalizer:
     """
-    Rule-based normalizer for Hinglish tokens.
-
-    Parameters
-    ----------
-    spell_check : bool
-        Whether to apply English spell-checking on alphabetic tokens.
-        Disable when running over a dataset that contains Hindi Romanized
-        words to avoid false corrections.
+    A two-stage normalizer that tags language first, then applies 
+    language-specific normalization rules.
     """
 
-    def __init__(self, spell_check: bool = True):
-        self._spell = SpellChecker() if spell_check else None
+    def __init__(self):
+        # Initialize English spellchecker
+        self._spell = SpellChecker()
+        # We combine slang for quick lookup, but can separate them in logic
+        self.all_slang = {**HINGLISH_SLANG, **ENGLISH_SLANG}
+
+    # ------------------------------------------------------------------
+    # Internal Helpers
+    # ------------------------------------------------------------------
+
+    def _get_label(self, token: str) -> str:
+        """Identify if a token is English (EN), Hinglish (HI), or OTHER."""
+        if not token.isalpha():
+            return "OTHER"
+        
+        tok_low = token.lower()
+
+        # 1. Check if it's a known English slang
+        if tok_low in ENGLISH_SLANG:
+            return "EN"
+            
+        # 2. Check if it's a known Hinglish slang
+        if tok_low in HINGLISH_SLANG:
+            return "HI"
+
+        # 3. Check English Dictionary (after basic compression)
+        # We compress 'helloooo' to 'helloo' just to see if the root is English
+        test_tok = _ELONGATION_RE.sub(r'\1\1', tok_low)
+        if self._spell.known([test_tok]):
+            return "EN"
+
+        # 4. Default to Hinglish for alphabetic unknowns
+        return "HI"
+
+    def _compress(self, tok: str) -> str:
+        """Generic compression: 3+ chars to 2."""
+        return _ELONGATION_RE.sub(r'\1\1', tok)
+
+    # ------------------------------------------------------------------
+    # Normalization Engines
+    # ------------------------------------------------------------------
+
+    def normalize_english(self, token: str) -> str:
+        """Rules: Slang Expand -> Compress -> Spell Check."""
+        tok = token.lower()
+        if tok in ENGLISH_SLANG:
+            return ENGLISH_SLANG[tok]
+        
+        tok = self._compress(tok)
+        # Only spell-check if it's not already a perfect dictionary match
+        if not self._spell.known([tok]):
+            correction = self._spell.correction(tok)
+            return correction if correction else tok
+        return tok
+
+    def normalize_hinglish(self, token: str) -> str:
+        """Delegates to hindi_normalizer: compress elongation → expand abbrev."""
+        return normalize_hindi_token(token)
 
     # ------------------------------------------------------------------
     # Public API
     # ------------------------------------------------------------------
 
-    def normalize_token(self, token: str) -> str:
-        """Normalize a *single* token and return the result."""
-        # Skip protected spans (hashtags, emojis, URLs, @mentions)
-        if token.startswith("#") or token.startswith("@") or token.startswith("http"):
-            return token
-        # Skip non-alphabetic tokens (punctuation, numbers, emojis)
-        if not token.isalpha():
-            return token
-
-        tok = token.lower()
-        tok = self._expand_slang(tok)
-        tok = self._compress_elongation(tok)
-        tok = self._spell_correct(tok)
-        return tok
-
-    def normalize_sentence(self, tokens: list[str]) -> list[str]:
-        """Normalize a *list* of tokens (output of HinglishTokenizer)."""
-        return [self.normalize_token(t) for t in tokens]
-
-    # ------------------------------------------------------------------
-    # Internals
-    # ------------------------------------------------------------------
-
-    def _expand_slang(self, tok: str) -> str:
-        """Replace known abbreviations / slang with their expanded form."""
-        return _SLANG_RE.sub(lambda m: SLANG_DICT[m.group(0).lower()], tok)
-
-    def _compress_elongation(self, tok: str) -> str:
+    def process(self, tokens: list[str]) -> list[dict]:
         """
-        Compress runs of 3+ identical characters down to 2.
-        'helloooo' → 'helloo'  (a second pass of real spell-check
-        will reduce 'helloo' → 'hello').
+        Returns a list of dictionaries containing metadata for each token.
         """
-        return _ELONGATION_RE.sub(r'\1\1', tok)
+        output = []
+        for t in tokens:
+            # Skip protected spans
+            if t.startswith(("#", "@", "http")):
+                output.append({"orig": t, "label": "SOCIAL", "norm": t})
+                continue
 
-    def _spell_correct(self, tok: str) -> str:
-        """
-        Attempt an English spell-correction.
-        Returns the most probable correction, or the original word
-        if spell checker has no suggestion or token is not alphabetic.
-        """
-        if self._spell is None or not tok.isalpha():
-            return tok
-        correction = self._spell.correction(tok)
-        return correction if correction else tok
+            label = self._get_label(t)
+            
+            if label == "EN":
+                norm = self.normalize_english(t)
+            elif label == "HI":
+                norm = self.normalize_hinglish(t)
+            else:
+                norm = t # Punctuation/Numbers
+                
+            output.append({
+                "orig": t,
+                "label": label,
+                "norm": norm
+            })
+        return output
 
-
-# ── Quick demo ──────────────────────────────────────────────────────────────
+# ── Demo Execution ──────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    norm = HinglishNormalizer(spell_check=True)
-    samples = [
+    normalizer = CodeMixedNormalizer()
+    
+    test_sentences = [
+        ["helloooo", "bhai", "kya", "haal", "h", "?"],
+        ["omg", "this", "is", "sooooo", "sahi", "yaar"],
+        ["bhaaaaai", "tu", "bhaji", "khayega", "?"],
         ["helloooo", "bhai", "kya", "haal", "h", "??"],
         ["omg", "sooooo", "cute", "lol"],
         ["@RahulG", "#India", "wbu", "ngl", "idk"],
-        ["bhaaaaai", "tu", "sahi", "bol", "rha"],
+        ["bhaaaaai", "tu", "sahi", "bol", "rha"]
     ]
-    for toks in samples:
-        print(f"\nInput : {toks}")
-        print(f"Output: {norm.normalize_sentence(toks)}")
+
+    for sentence in test_sentences:
+        print(f"\nProcessing: {' '.join(sentence)}")
+        results = normalizer.process(sentence)
+        
+        # Display results in a readable format
+        for item in results:
+            print(f"  {item['orig']:12} | Label: {item['label']:6} | Norm: {item['norm']}")
