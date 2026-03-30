@@ -15,7 +15,7 @@ import sklearn_crfsuite
 # ── Sibling module import ────────────────────────────────────────────────────
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-from src.models.lid_crf import load_sentences as lid_load_sentences
+
 from src.models.lid_crf import sent2features  as lid_sent2features
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
