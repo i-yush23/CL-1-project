@@ -1,0 +1,14 @@
+
+--- Running Optimized Hinglish Pipeline ---
+Input: yaar iss tas toh best hai imo
+
+--- Final Pipeline Output ---
+Original        | Normalized      | LID      | POS     
+------------------------------------------------------------
+yaar            | yaar            | HI       | N       
+iss             | iss             | HI       | PRP     
+tas             | tas             | EN       | V       
+toh             | toh             | HI       | CC      
+best            | best            | EN       | G_J     
+hai             | hai             | HI       | G_V     
+imo             | imo             | EN       | G_V     
