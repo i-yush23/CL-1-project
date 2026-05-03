@@ -7,6 +7,8 @@ Purely statistical NLP pipelines for two code-mixed language pairs:
 | **Hinglish** | Hindi ↔ English (romanised) | **97.15%** | **71.18%** |
 | **Tenglish** | Telugu ↔ English (romanised) | — | — |
 
+> **New modules added:** Code-Mixing Index (CMI) · Emoji Analyzer · Matrix Language Classifier
+
 Both pipelines are **Approach 2** implementations: no neural networks, no pre-trained embeddings — only Naive Bayes / HMM statistical models with phonetic hashing.
 
 ---
@@ -20,14 +22,20 @@ CL-1-project/
 │   ├── features/
 │   │   ├── phonetic_matcher.py ← Hinglish phonetic hasher
 │   │   └── emoji_analyzer.py   ← Emoji → sentiment label
+│   ├── metrics/
+│   │   └── cmi_calculator.py   ← Code-Mixing Index (CMI)
 │   ├── statistical_models/
 │   │   ├── lid_model.py        ← Naive Bayes LID (EN/HI/UNI)
-│   │   └── hmm_pos_tagger.py   ← HMM Viterbi POS tagger
+│   │   ├── hmm_pos_tagger.py   ← HMM Viterbi POS tagger
+│   │   └── matrix_classifier.py← MLF-based Matrix Language Classifier
+│   ├── features/
+│   │   ├── phonetic_matcher.py ← Hinglish phonetic hasher
+│   │   └── emoji_analyzer.py   ← Emoji → sentiment placeholder
 │   ├── tools/
 │   │   ├── evaluate.py         ← Full accuracy report
 │   │   ├── make_hinglish_lid.py← Build LID train/test CSVs
 │   │   └── make_bis_test.py    ← Build BIS-tagged test sets
-│   ├── pipeline_runner.py      ← End-to-end pipeline function
+│   ├── pipeline_runner.py      ← End-to-end pipeline (CLI + REPL)
 │   ├── demo.py                 ← Quick interactive demo
 │   └── README.md               ← Hinglish implementation plan
 │
@@ -82,32 +90,59 @@ All commands run from the **project root**.
 python hinglish/demo.py
 ```
 
-### Run on custom text
+### Run with a sentence argument
 ```bash
+cd CL-1-project
+python hinglish/pipeline_runner.py "Yaar I cannot believe this hogaya 😂, itna boring tha"
+```
+
+### Run interactively (REPL mode)
+```bash
+cd CL-1-project
 python hinglish/pipeline_runner.py
 ```
-Edit the `test_text` string at the bottom of the file, or import it in your own script:
-
-```python
-import sys
-sys.path.insert(0, ".")
-from hinglish.pipeline_runner import run_pipeline
-
-run_pipeline("Kal main office nahi aaunga, but I'll join the meeting online.")
-```
+Type any Hinglish sentence at the `>` prompt, then `quit` to exit.
 
 **Output:**
 ```
-Token           | LID   | POS
------------------------------------
-Kal             | HI    | R
-main            | HI    | PRP
-office          | EN    | N
-nahi            | HI    | PRT
-aaunga          | HI    | V
-,               | UNI   | PUNC
-but             | EN    | CC
-...
+───────────────────────────────────────────────────────
+  INPUT : Yaar I cannot believe this hogaya 😂, itna boring tha
+───────────────────────────────────────────────────────
+
+  Token                  LID     POS
+  ─────────────────────────────────────────────
+  Yaar                   HI      N
+  I                      EN      PRP
+  cannot                 EN      V
+  believe                EN      V
+  this                   EN      PRP
+  hogaya                 HI      N
+  😂                      EMOJI   EMOJI
+  ,                      UNI     PUNC
+  itna                   HI      PRT
+  boring                 EN      J
+  tha                    HI      V
+
+  ─────────────────────────────────────────────
+  CMI Score        : 40.0 / 100
+  HI tokens        : 4   EN tokens: 6   UNI tokens: 1
+
+  Matrix Language  : EN
+  Embedded Language: HI
+  HI score: 6.0   EN score: 10.0
+
+  Emojis detected  : 😂
+  Grammar anchors  : I, cannot, believe, this, itna, tha
+───────────────────────────────────────────────────────
+```
+
+### Import in your own script
+```python
+import sys
+sys.path.insert(0, "CL-1-project")
+from hinglish.pipeline_runner import run_pipeline
+
+run_pipeline("Kal main office nahi aaunga, but I'll join the meeting online.")
 ```
 
 ### Evaluate (LID + POS accuracy report)
@@ -185,7 +220,9 @@ python src/approach2/tools/regenerate_indicators.py
 | **LID model** | Naive Bayes + phonetic hash | Rule-based indicator sets + phonetic hash |
 | **POS model** | HMM Viterbi | HMM Viterbi |
 | **Phonetic hashing** | Hinglish-tuned (sh/ph/ch clusters) | Telugu-tuned |
-| **Emoji handling** | Classified as `UNI` | Gets `EMOJI` LID label |
+| **Emoji handling** | Detected → `__EMOJI_SENTIMENT__` placeholder | Gets `EMOJI` LID label |
+| **CMI** | Computed post-LID via `CmiCalculator` | — |
+| **Matrix Language** | MLF-based `MatrixClassifier` | — |
 | **Slang expansion** | Not applied | `slang_map.json` applied pre-LID |
 | **Context smoother** | Sliding window ±2 (weight 0.15) | — |
 | **OOV fallback** | Phonetic hash → class prior | Phonetic hash → indicator lookup |
