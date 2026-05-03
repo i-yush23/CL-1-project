@@ -1,0 +1,2023 @@
+కొడుకుని	N_NN	n	unk	sg	unk	unk	ని	B-NP
+కనకపోవడం	V_VM_VNG	v	any	any	any	unk	అక_పో_అడం	B-VGNN
+సీతాలుదే	N_NNP	pn	unk	sg	unk	unk	ది_0	B-NP
+తప్పు	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నెలకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఓసారి	N_NN	unk	unk	unk	unk	unk	unk	I-NP
+కూతురు	N_NN	n	unk	sg	unk	d	0	B-NP
+అలిగొత్తది	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-BLK
+తరువాత	N_NST	adv	unk	unk	unk	unk	0	B-NP
+అవి	PR_PRP	pn	fn	pl	3	d	0	B-NP
+ఎదగవు	V_VM_VF	v	n	pl	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+నీళ్ల	N_NN	n	unk	pl	unk	o	టి	B-NP
+తొట్టి	N_NN	n	unk	sg	unk	d	0	B-NP
+కట్టుకోవాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అన్ని	QT_QTF	pn	unk	pl	unk	d	0	B-NP
+పశువులకు	N_NN	n	unk	pl	unk	unk	కి	B-NP
+ఒకేలాగా	RB	unk	unk	unk	unk	unk	unk	B-RBP
+ఉండకూడదు	V_VM_VF	v	any	any	any	unk	అ_కూడదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+పెద్ద	JJ	adj	unk	sg	unk	o	0	I-NP
+మనిషికి	N_NN	n	unk	sg	unk	unk	కి	I-NP
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+అప్పు	N_NN	n	unk	sg	unk	d	0	B-NP
+తీర్చలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+"	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+బహుశా	RP_RPD	avy	unk	unk	unk	unk	unk	I-BLK
+అది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+నిన్న	N_NST	n	unk	sg	unk	d	0	B-NP
+మనం	PR_PRP	pn	any	pl	1	d	0	B-NP
+మకాం	N_NN	n	unk	sg	unk	d	0	B-NP
+చేసిన	V_VM_VNF	v	any	any	any	unk	ఇన	B-VGNF
+వాళ్లింట్లో	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+ఉండి	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+ఉంటుంది	V_VAUX	v	fn	sg	3	unk	తా	I-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చీటి	N_NN	n	unk	sg	unk	d	0	B-NP
+చూసింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చుక్కకూర	N_NN	n	unk	sg	unk	d	0	B-NP
+ఐదు	QT_QTC	n	unk	sg	unk	d	0	B-NP
+సెంట్ల	N_NN	n	unk	pl	unk	o	టి	B-NP
+నేలలో	N_NN	n	unk	pl	unk	unk	0	B-NP
+ఐదు	QT_QTC	n	unk	sg	unk	d	0	B-NP
+కిలోల	N_NN	n	unk	pl	unk	o	టి	B-NP
+గింజలు	N_NN	n	unk	pl	unk	d	0	B-NP
+వేసి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+చుక్కకూర	N_NN	n	unk	sg	unk	d	0	B-NP
+పెంచుతారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+1	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయితే	CC_CCS	avy	unk	unk	unk	unk	0	B-CCP
+"	RD_PUNC	punc	unk	unk	unk	unk	unk	B-NP
+ప్రస్తుతానికి	N_NN	n	unk	sg	unk	unk	కి	I-NP
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+ఉంచండి	V_VM_VF	v	unk	pl	2	unk	ఆజ్ఞార్థ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సోములు	N_NNP	n	unk	unk	unk	unk	unk	B-NP
+ఎంతో	RP_INTF	avy	unk	unk	unk	unk	0	B-RBP
+బతిమాలాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చెమటలు	N_NN	n	unk	pl	unk	d	0	B-NP
+పోశాయి	V_VM_VF	v	n	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అదే	RB	avy	fn	sg	3	unk	0	B-RBP
+అడిగాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సాధారణంగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+ఉండవలసినంత	V_VM_VF	v	any	any	any	unk	అ_వలయు_ఇన_అంత	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తాను	PR_PRP	pn	unk	sg	unk	d	0	B-NP
+ఎందుకు	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+వచ్చిందీ	V_VM_VF	pn	unk	sg	unk	unk	ని_ది_0	B-VGF
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+ముసలావిడకి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+తెలియపరచింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+విశేషం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒకరోజు	N_NN	n	unk	sg	unk	d	0	B-NP
+వేడి	JJ	adj	unk	pl	unk	d	0	B-NP
+పాలమీద	N_NN	n	unk	pl	unk	unk	మీద	B-NP
+వెన్న	N_NN	n	unk	sg	unk	d	0	B-NP
+ఏమైంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గడప	N_NN	n	unk	sg	unk	d	0	B-NP
+దాటకుంటే	V_VM_VNF	v	any	any	any	unk	అకపోతే	B-VGNF
+మాకు	PR_PRP	pn	any	pl	1	unk	కి	B-NP
+ఎలా	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+పూట	N_NN	n	unk	sg	unk	d	0	B-NP
+గడుస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అక్కడ	N_NST	adv	unk	unk	unk	unk	0	B-NP
+చాలామంది	RP_CL	n	unk	pl	unk	d	0	B-NP
+ఉన్నారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పరాయిదాన్నిలా	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+ఎందుకు	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+లెక్క	N_NN	n	unk	sg	unk	d	0	B-NP
+వేస్తారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గ్రహాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+కనపడాతాయి	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సాళ్ల	N_NN	n	unk	pl	unk	o	టి	B-NP
+మధ్య	N_NST	nst	unk	unk	unk	unk	యొక్క	B-NP
+45	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+ఎడం	N_NN	n	unk	sg	unk	d	0	I-NP
+ఉండేవిధంగా	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+చూసుకోవాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అక్కడ	N_NST	adv	unk	unk	unk	unk	0	B-NP
+ఏదో	PR_PRQ	pn	fn	sg	3	unk	0	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+కూలి	N_NN	n	unk	sg	unk	d	0	B-NP
+పని	N_NN	n	unk	sg	unk	d	0	B-NP
+దొరుకుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఉమ్మి	N_NN	n	unk	sg	unk	d	0	B-NP
+పరీక్షకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పంపి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+చూశాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గ్రాహాలను	N_NN	n	unk	pl	unk	unk	ని	B-NP
+దగ్గరగా	N_NN	avy	unk	unk	unk	unk	unk	B-NP
+చూడాలంటే	V_VM_VF	v	any	any	any	unk	ఆలి_అంటే	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆంధ్రప్రదేశ్లో	N_NNP	n	n	sg	unk	unk	లో	B-NP
+పలు	N_NN	avy	n	unk	unk	unk	unk	B-NP
+సంగ్రహాలయాలు	N_NN	n	n	pl	unk	d	0	I-NP
+కలవు	V_VM_VF	v	unk	sg	2	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మా	PR_PRP	pn	any	pl	1	o	టి	B-NP
+సీతాలుకే	N_NNP	n	unk	sg	unk	unk	కి	B-NP
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+జబ్బు	N_NN	n	unk	sg	unk	d	0	I-NP
+ఎందుకు	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+వచ్చింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+సారి	N_NN	n	unk	sg	unk	d	0_కూడా	I-NP
+కూతురే	N_NN	n	unk	sg	unk	unk	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆడామగా	N_NN	n	unk	sg	unk	d	0	B-NP
+పనిలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+సమానం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+హస్తినాపురంలో	N_NNP	n	fn	sg	3	o	లో	B-NP
+భగవంతుడు	N_NN	n	m	sg	3	d	0	B-NP
+అతని	PR_PRP	pn	m	sg	3	o	టి	B-NP
+ప్రవచనాలతో	N_NN	n	fn	pl	3	o	తో	B-NP
+ఆరుగురు	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+పెద్ద	JJ	adj	unk	unk	unk	d	0	I-NP
+రాజులను	N_NN	n	m	pl	3	o	ని	I-NP
+జైన	N_NNP	n	fn	sg	3	o	టి	B-NP
+మత	N_NN	n	fn	sg	3	o	టి	I-NP
+అనుయాయులుగా	N_NN	n	any	pl	3	o	గా	B-NP
+తయారు	N_NN	n	fn	sg	3	d	0	B-NP
+చేశాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇవి	PR_PRP	pn	fn	pl	3	d	0	B-NP
+పగలుకూడా	N_NN	n	unk	sg	unk	unk	కూడా	B-NP
+ఉంటాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+రోజు	N_NN	n	unk	sg	unk	d	0	B-NP
+కాంతం	N_NNP	n	unk	sg	unk	d	0	B-NP
+ఎదురింటికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పోయింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఎవరు	PR_PRQ	pn	fm	pl	3	d	0	B-NP
+ముందర	N_NST	avy	unk	unk	unk	unk	0	B-NP
+చనిపోతే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+తరువాతవాళ్లు	N_NN	pn	unk	pl	unk	d	0	B-NP
+ఇంత	QT_QTF	pn	unk	sg	unk	d	0	B-NP
+మట్టి	N_NN	n	unk	sg	unk	d	0	I-NP
+వేస్తారు	V_VM_VF	v	unk	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గోపాలం	N_NNP	n	unk	sg	unk	d	0	B-NP
+అత్తా	N_NN	n	unk	sg	unk	unk	0	B-NP
+మామే	N_NN	n	unk	sg	unk	unk	0	B-NP
+చేశారు	V_VM_VF	v	unk	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పశువును	N_NN	n	unk	sg	unk	unk	ను	B-NP
+బాగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+కడగాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అప్పటి	N_NST	nst	unk	unk	unk	unk	యొక్క_వరకూ	B-NP
+ఆమె	PR_PRP	pn	f	sg	3	d	0	B-NP
+ఒంటరిగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+ఎక్కడికీ	PR_PRQ	nst	unk	unk	unk	unk	కి_V	B-NP
+వెళ్లలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అందులో	PR_PRP	avy	unk	unk	unk	unk	unk	B-NP
+ఇవన్నీ	PR_PRP	avy	unk	unk	unk	unk	0	B-NP
+వచ్చేవి	V_VM_VF	pn	unk	pl	unk	unk	ఏ_అది	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రోగులను	N_NN	n	unk	pl	unk	unk	ని	B-NP
+చూడటం	V_VM_VNF	v	any	any	any	unk	అడం	B-VGNF
+మొదలు	N_NN	n	unk	sg	unk	d	0	B-NP
+పెట్టింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వారంవారం	N_NN	pn	unk	pl	unk	unk	వారు_ను	B-NP
+ఊరికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పోతాను	V_VM_VF	v	unk	sg	1	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+శంకరం	N_NNP	n	unk	sg	unk	d	0	B-NP
+రమణ	N_NNP	n	unk	sg	unk	d	0	B-NP
+చెప్పినదంతా	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+విన్నాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+9	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+వారాల	N_NN	n	unk	pl	unk	o	టి	B-NP
+తరువాత	N_NST	adv	unk	unk	unk	unk	0	B-NP
+బల్బుల	N_NN	n	unk	pl	unk	o	టి	B-NP
+అవసరం	N_NN	n	unk	sg	unk	d	0	B-NP
+ఉండదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వాటిని	PR_PRP	pn	fn	pl	3	unk	ని	B-NP
+పగ	N_NN	n	unk	sg	unk	d	0	B-NP
+అంతా	N_NN	avy	unk	unk	unk	unk	0	I-NP
+మేపాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రోజూ	N_NN	n	unk	sg	unk	unk	0	B-NP
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+వార్తలు	N_NN	n	unk	pl	unk	d	0	I-NP
+మనం	PR_PRP	pn	any	pl	1	d	0	B-NP
+వింటూనే	V_VM_VF	v	any	any	any	unk	తూ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయితే	CC_CCS	avy	unk	unk	unk	unk	0	B-CCP
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+కొంతమేరకే	N_NST	avy	unk	unk	unk	unk	ఏ	B-NP
+పని	N_NN	n	unk	sg	unk	d	0	B-NP
+చేస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అందుకే	CC_CCD	avy	unk	unk	unk	unk	unk	B-CCP
+పేపరులో	N_NN	n	unk	pl	unk	unk	0	B-NP
+రాస్తారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొందరు	PR_PRP	pn	unk	pl	unk	d	0	B-NP
+దీనిని	PR_PRP	pn	fn	sg	3	unk	ను	B-NP
+ఆకుకూరల్లో	N_NN	n	unk	pl	unk	unk	లో	B-NP
+రారాజుగా	N_NN	n	unk	sg	unk	unk	గా	B-NP
+చెబుతారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కోళ్లు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఒకదానినొకటి	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+పొడుచుకోవు	V_VM_VF	v	n	pl	3	unk	కొన్_అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+నిజం	N_NN	n	unk	sg	unk	d	0	B-NP
+కాదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మొత్తానికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+పాకలో	N_NN	n	unk	pl	unk	unk	0	I-NP
+250	QT_QTC	num	unk	unk	unk	unk	0_కన్నా	B-NP
+ఎక్కువ	JJ	adj	unk	unk	unk	unk	0	B-NP
+కోళ్లు	N_NN	n	unk	pl	unk	d	0	I-NP
+ఉంచకూడదు	V_VM_VF	v	any	any	any	unk	అ_కూడదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పైగా	RP_RPD	avy	unk	unk	unk	unk	0	B-BLK
+బిడ్డకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఎంతో	RP_INTF	avy	unk	unk	unk	unk	0	B-JJP
+మంచిది	JJ	adj	unk	sg	unk	unk	ది	I-JJP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+చూసి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+పినతండ్రి	N_NN	n	unk	sg	unk	d	0	B-NP
+కొట్టేవాడు	V_VM_VNF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGNF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నీవు	PR_PRP	pn	any	sg	2	d	0	B-NP
+వస్తే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+అంతా	QT_QTF	avy	unk	unk	unk	unk	0	B-NP
+బాగవుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+విషయం	N_NN	n	unk	sg	unk	d	0	B-NP
+నాయనతో	N_NN	n	unk	sg	unk	unk	తో	B-NP
+అంది	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మగవాళ్లలాగా	N_NN	pn	unk	pl	unk	unk	వాళ్లు_లా	B-NP
+పొలం	N_NN	n	unk	sg	unk	d	0	B-NP
+పనులు	N_NN	n	unk	pl	unk	d	0	B-NP
+చేస్తున్నారు	V_VM_VF	v	fm	pl	3	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గేదే	N_NN	n	unk	sg	unk	unk	0	B-NP
+పాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+తీసి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+పట్టుకుపోయేవాడు	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సుబ్బయ్యగారు	N_NNP	n	unk	sg	unk	unk	గారు	B-NP
+మూలుగుతూ	V_VM_VNF	v	any	any	any	unk	తూ	B-VGNF
+లేచారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కుదుట	N_NST	adv	unk	unk	unk	unk	0	B-NP
+పడింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆడవాళ్లకు	N_NN	pn	unk	pl	unk	unk	వాళ్లు_కి	B-NP
+నెలా	N_NN	n	unk	sg	unk	unk	0	B-NP
+నెలా	N_NN	n	unk	sg	unk	unk	0	I-NP
+అండం	N_NN	n	unk	sg	unk	d	0	B-NP
+వస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మూడింతలు	QT_QTF	n	unk	unk	unk	unk	ఇంత	B-NP
+పెంచవచ్చు	V_VM_VF	v	any	any	any	unk	అ_వచ్చు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇదీ	PR_PRP	pn	fn	sg	3	unk	0	B-NP
+చాలా	RP_INTF	avy	unk	unk	unk	unk	0	B-NP
+సులువే	N_NN	n	unk	sg	unk	unk	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కాంకేరఘాటీ	N_NNP	n	fn	sg	3	d	0	B-NP
+ముఖ్య	JJ	adj	unk	unk	unk	d	0	B-NP
+పర్యాటక	JJ	adj	n	sg	unk	d	0	I-NP
+స్థలాలు	N_NN	n	fn	pl	3	d	0	I-NP
+క్రింది	N_NST	nst	unk	unk	unk	d	0_విధంగా	B-NP
+ఉన్నాయి	V_VM_VF	v	n	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+రత్తాలు	N_NNP	n	unk	pl	unk	d	0	B-NP
+డాక్టరుతో	N_NN	n	unk	sg	unk	unk	తో	B-NP
+ఒకటే	RP_RPD	avy	unk	unk	unk	unk	0	B-RBP
+ఏడుపు	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నూగు	N_NN	n	unk	sg	unk	d	0	B-NP
+దోసకాయల్లె	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+ఉండె	V_VM_VF	v	n	pl	3	unk	ఇతి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నోటిలోనుంచి	N_NN	n	unk	sg	unk	unk	లోనుండి	B-NP
+ఊపిరి	N_NN	n	unk	sg	unk	d	0	B-NP
+పీలుస్తాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సోములుకు	N_NNP	n	unk	sg	unk	unk	కి	B-NP
+ఆశ	N_NN	n	unk	sg	unk	d	0	B-NP
+చావలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వాటిని	PR_PRP	pn	fn	pl	3	unk	ని	B-NP
+మూట	N_NN	n	unk	sg	unk	d	0	B-NP
+కట్టాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+ముగ్గులో	N_NN	n	unk	pl	unk	unk	0	B-NP
+ఉంచాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అక్కడక్కడ	N_NST	avy	unk	unk	unk	unk	0	B-NP
+పూలు	N_NN	n	unk	pl	unk	d	0	B-NP
+,	RD_PUNC	punc	unk	unk	unk	unk	unk	B-CCP
+ఆకులు	N_NN	n	unk	pl	unk	d	0	B-NP
+కుట్టబడి	V_VM_VF	v	any	any	any	unk	అ_బడు_ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అత్తగారికి	N_NN	pn	unk	pl	unk	unk	గారు_కి	B-NP
+కోపం	N_NN	n	unk	sg	unk	d	0	B-NP
+వచ్చేది	V_VM_VF	pn	unk	sg	unk	unk	ఏ_అది	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	pn	unk	unk	unk	unk	unk	B-NP
+ఏడు	QT_QTC	num	unk	unk	unk	unk	unk	I-NP
+ధర్మస్థలాలు	N_NN	n	fn	pl	3	o	టి	I-NP
+ఏడు	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+నగరాలు	N_NN	n	fn	pl	3	d	0	I-NP
+లేదా	CC_CCD	avy	unk	unk	unk	unk	unk	B-CCP
+ఏడు	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+పట్టణాల	N_NN	n	fn	pl	3	o	టి	I-NP
+రూపంలో	N_NN	n	fn	sg	3	o	లో	B-NP
+గ్రంథాలలో	N_NN	n	fn	pl	3	o	లో	B-NP
+వర్ణించబడ్డాయి	V_VM_VF	v	n	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొన్ని	QT_QTF	pn	unk	pl	unk	d	0	B-NP
+సందర్భాలలో	N_NN	n	unk	pl	unk	unk	లో	B-NP
+అలాంటి	JJ	adj	unk	unk	unk	unk	0	B-JJP
+చిన్న	JJ	adj	unk	unk	unk	unk	0	B-NP
+సంఘటనలే	N_NN	n	unk	sg	unk	unk	0_లే	B-NP
+దంపతులు	N_NN	n	unk	pl	unk	d	0	B-NP
+విడిపోవడానికి	V_VM_VNG	n	unk	sg	unk	unk	అడం_కి	B-VGNN
+దారితీయడం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+విచారించదగిన	V_VM_VNF	v	any	any	any	unk	అ_దగు_ఇన	B-VGNF
+విషయం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఎదిగే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+పాపకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఏమి	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+కావాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇప్పుడు	N_NST	adv	unk	sg	unk	d	0	B-NP
+మా	PR_PRP	pn	any	pl	1	o	టి	B-NP
+ఊళ్లో	N_NN	n	unk	pl	unk	unk	0	B-NP
+జనచైతన్యకేంద్రాలు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+పెట్టారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పాల	N_NN	n	unk	pl	unk	o	టి	B-NP
+దిగుబడి	N_NN	n	unk	sg	unk	d	0	I-NP
+పెరిగితే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+మన	PR_PRP	pn	any	pl	1	o	టి	B-NP
+ఆదాయం	N_NN	n	unk	sg	unk	d	0	B-NP
+పెరుగుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+మోసగాడు	N_NN	n	unk	sg	unk	d	0	I-NP
+నన్ను	PR_PRP	pn	any	sg	1	unk	ని	B-NP
+నాశనం	N_NN	n	unk	sg	unk	d	0	B-NP
+చేసాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గుక్కతిప్పుకోకుండా	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+ఏడవసాగాడు	V_VM_VF	v	m	sg	3	unk	అ_సాగు_ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ప్రపంచంలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+ఎక్కడైనా	PR_PRP	avy	unk	unk	unk	unk	0	B-NP
+ఇంతే	RP_RPD	avy	unk	unk	unk	unk	0	B-RBP
+అనుకోనేరు	V_VM_VF	v	any	any	any	unk	అ_నేరు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చదువులో	N_NN	n	unk	pl	unk	unk	0	B-NP
+మాకు	PR_PRP	pn	any	pl	1	unk	కి	B-NP
+చాలా	QT_QTF	avy	unk	unk	unk	unk	0	B-NP
+సంగతులు	N_NN	n	unk	pl	unk	d	0	B-NP
+తెలిశాయి	V_VM_VF	v	n	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మరల	RB	avy	unk	unk	unk	unk	0	B-RBP
+రెండో	QT_QTO	adj	unk	unk	unk	unk	0	B-NP
+కోత	N_NN	n	unk	sg	unk	d	0	B-NP
+15	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+రోజులకే	N_NN	n	unk	pl	unk	unk	కి	I-NP
+వస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నాకు	PR_PRP	pn	any	sg	1	unk	కి	B-NP
+ఏమీ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+అర్ధం	N_NN	n	unk	sg	unk	d	0	B-NP
+కాలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తిండి	N_NN	n	unk	sg	unk	d	0	B-NP
+తినేవాడు	V_VM_VF	pn	fm	sg	3	unk	ఏ_వాడు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పోచాలు	N_NNP	n	unk	sg	unk	d	0	B-NP
+కొడుకును	N_NN	n	unk	unk	unk	unk	ను	I-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మగవాళ్లతో	N_NN	pn	unk	pl	unk	unk	వాళ్లు_తో	B-NP
+సమానమైన	JJ	n	unk	sg	unk	unk	ఐన	B-JJP
+కూలి	N_NN	n	unk	sg	unk	d	0	B-NP
+,	RD_PUNC	punc	unk	unk	unk	unk	unk	B-CCP
+జీతం	N_NN	n	unk	sg	unk	d	0	B-NP
+ఉండాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అంతేగాని	CC_CCD	avy	unk	unk	unk	unk	unk	B-CCP
+కంటి	N_NN	n	unk	sg	unk	o	టి	B-NP
+లోపలి	N_NST	nst	unk	unk	unk	unk	యొక్క	B-NP
+భాగం	N_NN	n	unk	sg	unk	d	0	B-NP
+చేతితో	N_NN	n	unk	sg	unk	unk	తో	B-NP
+తాకగూడదు	V_VM_VF	v	any	any	any	unk	అ_కూడదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తరవాత	N_NST	adv	unk	unk	unk	unk	0	B-NP
+బయటకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+వచ్చి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+తాళం	N_NN	n	unk	sg	unk	d	0	B-NP
+వేసేవాడు	V_VM_VF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అందుకే	CC_CCD	avy	unk	unk	unk	unk	unk	B-CCP
+ఇక్కడ	N_NST	adv	unk	unk	unk	d	0	B-NP
+మనం	PR_PRP	pn	any	pl	1	d	0	B-NP
+ఉండగల్గుతున్నాం	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గింజలు	N_NN	n	unk	pl	unk	d	0	B-NP
+చల్లిన	V_VM_VNF	v	any	any	any	unk	ఇన	B-VGNF
+4	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+వారాలలో	N_NN	n	unk	pl	unk	unk	లో	I-NP
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+పెరుగుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బాగా	RP_INTF	avy	unk	unk	unk	unk	0	B-RBP
+చీకటి	N_NN	n	unk	sg	unk	d	0	B-NP
+పడింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీంతో	PR_PRP	n	unk	sg	unk	unk	తో	B-CCP
+సోములుకు	N_NNP	n	unk	sg	unk	unk	కి	B-NP
+మోసం	N_NN	n	unk	sg	unk	d	0	B-NP
+తెలిసివచ్చింది	V_VM_VF	v	fn	sg	3	unk	ఇ_వచ్చు	B-VGF
+		
+నల్ల	JJ	adj	unk	sg	unk	o	0	B-NP
+రేగడి	N_NN	n	unk	sg	unk	d	0	I-NP
+భూములలో	N_NN	n	unk	pl	unk	unk	లో	I-NP
+భూసార	N_NN	n	unk	sg	unk	o	టి	B-NP
+పరీక్ష	N_NN	n	unk	sg	unk	d	0	I-NP
+చేయించిన	V_VM_VNF	v	any	any	any	unk	ఇన_తరవాత	B-VGNF
+అవసరమైతే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+40	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+కిలోగ్రామ్ల	N_NN	unk	unk	unk	unk	unk	unk	I-NP
+పొటాషియం	N_NN	n	unk	sg	unk	d	0	I-NP
+వాడవలసి	V_VM_VF	v	any	any	any	unk	అ_వలయు_ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దారిలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+కోయ	N_NN	n	unk	sg	unk	d	0	B-NP
+లచ్చన్న	N_NNP	n	unk	sg	unk	d	0	B-NP
+కనిపించాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పిల్లలు	N_NN	n	unk	pl	unk	d	0	B-NP
+చదువుకుంటున్నారు	V_VM_VF	v	fm	pl	3	unk	కొన్_తూ_ఉండు_ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చివరకి	N_NST	n	unk	sg	unk	unk	కి	B-NP
+ఆడదిగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+పుట్టడమే	V_VM_VNG	n	unk	sg	unk	unk	అడం_0	B-VGNN
+శాపం	N_NN	n	unk	sg	unk	d	0	B-NP
+అనిపించడం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	I-VGNN
+ఎంత	PR_PRQ	pn	unk	sg	unk	d	0	B-RBP
+అసహ్యం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మనకి	PR_PRP	pn	unk	pl	unk	unk	కి	B-NP
+పిల్లలు	N_NN	n	unk	pl	unk	d	0	B-NP
+లేరు	V_VM_VF	v	unk	pl	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొందరు	PR_PRP	pn	unk	pl	unk	d	0	B-NP
+యూరియాను	N_NN	n	unk	sg	unk	unk	ను	B-NP
+తీసుకుంటారు	V_VM_VF	v	unk	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీపావళికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+గోపాలంను	N_NNP	n	unk	sg	unk	unk	ను	B-NP
+తీసుకుపోయారు	V_VM_VF	v	unk	pl	3	unk	ఇ_పో	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+డాక్టరుగారు	N_NN	n	unk	sg	unk	d	0	B-NP
+చెప్పారు	V_VM_VF	v	unk	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆహారం	N_NN	n	unk	sg	unk	d	0	B-NP
+గాలి	N_NN	n	unk	sg	unk	d	0	B-NP
+తల్లి	N_NN	n	unk	sg	unk	d	0	B-NP
+బిడ్డకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+చేరుస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తరవాత	N_NST	adv	unk	unk	unk	unk	0	B-NP
+గోపాలం	N_NNP	n	unk	sg	unk	d	0	B-NP
+గుడికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+చేరాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+ఇంట్లో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+గది	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆరుగాలం	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+పనిచేసినా	V_VM_VF	v	any	any	any	unk	ఇనా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	I-VGF
+అయిదు	N_NN	n	unk	sg	unk	d	0	B-NP
+వేళ్లు	N_NN	n	unk	pl	unk	d	0	I-NP
+నోటిలోకి	N_NN	n	unk	sg	unk	unk	లోపలకి	B-NP
+పోవుట	V_VM_VNF	v	n	pl	3	unk	అ_ఉట	B-VGNF
+గగనం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గఢ్‌ముక్తేశ్వర్	N_NNP	n	fn	sg	3	d	0	B-NP
+వర్ణన	N_NN	n	fn	sg	3	d	0	B-NP
+శివ	N_NNP	n	m	sg	3	d	0	B-NP
+పురాణంలో	N_NN	n	fn	sg	3	o	లో	I-NP
+లభిస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దొరగారి	N_NN	pn	unk	pl	unk	unk	గారు_ఓబ్ల్	B-NP
+పాలేరు	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వేగంగా	N_NN	n	unk	sg	unk	unk	గా	B-NP
+తిరుగుతారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బొప్పాయి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎంత	RP_INTF	pn	unk	sg	unk	d	0	B-JJP
+గొప్పదో	JJ	pn	unk	sg	unk	unk	ది_0	I-JJP
+!	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒక	QT_QTC	adj	unk	unk	unk	unk	0	B-NP
+నెల	N_NN	n	unk	sg	unk	d	0	B-NP
+రోజుల్లో	N_NN	unk	unk	unk	unk	unk	unk	I-NP
+మామూలు	JJ	n	unk	sg	unk	d	0	B-NP
+వేడి	N_NN	n	unk	pl	unk	d	0	B-NP
+ఉంటేచాలు	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వాళ్లు	PR_PRP	pn	fm	pl	3	d	0	B-NP
+ఏమీ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+అనుకొంటారు	V_VM_VF	v	unk	pl	3	unk	తా	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మా	PR_PRP	pn	any	pl	1	o	టి	B-NP
+ఊరి	N_NN	n	unk	sg	unk	o	టి	B-NP
+దాసుకు	N_NNP	n	unk	sg	unk	unk	కి	B-NP
+చూపెడతాను	V_VM_VF	v	unk	sg	1	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అందరం	PR_PRP	avy	unk	unk	unk	unk	unk	B-NP
+కలిసి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+ఆడుకొనేవాళ్లం	V_VM_VF	pn	unk	pl	unk	unk	కొన్_ఏ_వాళ్లు_ను	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఏలిక	N_NN	n	unk	sg	unk	d	0	B-NP
+పాములు	N_NN	n	unk	pl	unk	d	0	I-NP
+పడి	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆడవాళ్ల	N_NN	pn	unk	pl	unk	unk	వాళ్లు	B-NP
+జబ్బులు	N_NN	n	unk	pl	unk	d	0	B-NP
+చూచేందుకు	V_VM_VNF	v	any	any	any	unk	ఏ_ఏందుకు	B-VGNF
+వసతులు	N_NN	n	unk	pl	unk	d	0	B-NP
+లేకపోవడం	V_VM_VNG	v	any	any	any	unk	అక_పో_అడం	B-VGNN
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చేతిలో	N_NN	n	unk	pl	unk	unk	0	B-NP
+ఉన్న	V_VM_VNF	v	any	any	any	unk	ఇన	B-VGNF
+చెట్టు	N_NN	n	unk	sg	unk	d	0	B-NP
+పడేసాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కానీ	CC_CCD	avy	unk	unk	unk	unk	0	B-CCP
+ఎవరూ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+రాలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పాలిచ్చేటప్పుడు	V_VM_VNF	v	any	any	any	unk	ఏ_అప్పుడు	B-VGNF
+గొడ్డును	N_NN	n	unk	sg	unk	unk	ను	B-NP
+భయపెట్టగూడదు	V_VM_VF	v	any	any	any	unk	అ_కూడదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒకర్ని	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+ఒకరు	N_NN	pn	unk	pl	unk	d	0	I-NP
+నెట్టుకుంటున్నారు	V_VM_VF	v	fm	pl	3	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నీరు	N_NN	n	unk	sg	unk	d	0	B-NP
+పెడుతూఉంటే	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+మొక్కలు	N_NN	n	unk	pl	unk	d	0	B-NP
+పెరుగుతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+వీడి	PR_PRP	pn	m	sg	3	o	టి	B-NP
+మొహం	N_NN	n	unk	sg	unk	d	0	B-NP
+చూడను	V_VM_VF	v	unk	sg	1	unk	అ	B-VGF
+"	RD_PUNC	punc	unk	unk	unk	unk	unk	I-VGF
+అని	CC_CCD	avy	unk	unk	unk	unk	0	B-CCP
+అంది	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఉప్పు	N_NN	n	unk	sg	unk	d	0	B-NP
+తగ్గించాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తలుపులు	N_NN	n	unk	pl	unk	d	0	B-NP
+మూసుకుంటాడు	V_VM_VF	v	m	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తెల్లని	JJ	adj	unk	unk	unk	unk	టి	B-JJP
+విరోచనాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+అవుతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కాని	RP_RPD	avy	unk	unk	unk	unk	unk	B-BLK
+అవిసె	N_NN	n	unk	sg	unk	d	0	B-NP
+నూనె	N_NN	n	unk	sg	unk	d	0	I-NP
+వంటకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పనికిరాదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బంధువులకోసం	N_NN	n	unk	pl	unk	unk	కోసం	B-NP
+కొంటాం	V_VM_VF	v	unk	pl	1	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చంటిపిల్లలకు	N_NN	n	unk	pl	unk	unk	కి	B-NP
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+ఎక్కువ	N_NN	adj	unk	unk	unk	unk	0	B-NP
+రావచ్చు	V_VM_VF	v	any	any	any	unk	అ_వచ్చు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీపం	N_NN	n	unk	sg	unk	d	0	B-NP
+వైపు	N_NN	n	unk	sg	unk	d	0	B-NP
+నిలబడి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+చూస్తే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+కుండంతా	N_NN	nst	unk	unk	unk	unk	అంత_0_ఆ	B-NP
+వెలుతురులో	N_NN	n	unk	pl	unk	unk	0	B-NP
+కనపడుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రోజు	N_NN	n	unk	sg	unk	d	0	B-NP
+డాక్టరు	N_NN	n	unk	sg	unk	d	0	B-NP
+చూసేవాడు	V_VM_VF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వచ్చేటప్పుడు	V_VM_VNF	v	any	any	any	unk	ఏ_అప్పుడు	B-VGNF
+కట్టెలూపుల్లలూ	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+ఏరుకొనిరావాలి	V_VM_VF	v	any	any	any	unk	కొన్_ఇ_వచ్చు_ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+గదిలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+ఏమీ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+లేదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆమె	PR_PRP	pn	f	sg	3	d	0	B-NP
+చాలా	RP_INTF	avy	unk	unk	unk	unk	0	B-NP
+కష్టపడుతోంది	V_VM_VF	v	fn	sg	3	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఉమ్మి	N_NN	n	unk	sg	unk	d	0	B-NP
+గాలిలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+చేరతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇవి	PR_PRP	pn	fn	pl	3	d	0	B-NP
+అన్నీ	QT_QTF	avy	unk	unk	unk	unk	0	B-NP
+ఉంటే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+గర్భవతి	N_NN	n	unk	sg	unk	d	0	B-NP
+కావడం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+ఆమెకు	PR_PRP	pn	f	sg	3	unk	కి	B-NP
+ఓ	JJ	avy	unk	unk	unk	unk	unk	B-NP
+పండుగ	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+భాషనే	N_NN	n	n	sg	unk	unk	ని	I-NP
+కవిత్వంలో	N_NN	n	n	sg	unk	unk	లో	B-NP
+విరివిగా	RB	adv	unk	unk	unk	unk	0	B-RBP
+వాడుతారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మురికి	N_NN	n	unk	sg	unk	d	0	B-NP
+లేకుండా	V_VM_VNF	v	any	any	any	unk	ఇ_ఆ	B-VGNF
+చూసుకోవాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దూడ	N_NN	n	unk	sg	unk	d	0	B-NP
+కింద	N_NST	adv	unk	unk	unk	unk	0	B-NP
+పడి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+లేచింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బాకీలకింద	N_NN	n	unk	pl	unk	unk	కింద	B-NP
+ఇల్లు	N_NN	n	unk	sg	unk	d	0	B-NP
+పోయింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇందుకు	PR_PRP	avy	unk	unk	unk	unk	unk	B-NP
+నేలను	N_NN	n	unk	sg	unk	unk	ను	B-NP
+చదును	N_NN	adj	unk	unk	unk	unk	0	B-NP
+చేసుకోవాలి	V_VM_VF	v	any	any	any	unk	కొన్_ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మోకాళ్ల	N_NN	n	unk	pl	unk	o	టి	B-NP
+నొప్పి	N_NN	n	unk	sg	unk	d	0_వల్ల	B-NP
+నిలబడ్డం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+కష్టంగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+ఉంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+పంటకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+మొక్క	N_NN	n	unk	sg	unk	d	0	B-NP
+పెరిగే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+సమయంలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+చల్లని	JJ	adj	unk	unk	unk	unk	టి	B-NP
+వాతావరణం	N_NN	n	unk	sg	unk	d	0	B-NP
+అవసరం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అంటే	CC_CCS_UT	avy	unk	unk	unk	unk	unk	B-BLK
+100	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+చదరపు	N_NN	n	unk	sg	unk	o	టి	I-NP
+అడుగులు	N_NN	n	unk	pl	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చుక్కలు	N_NN	n	unk	pl	unk	d	0	B-NP
+సూర్యుడు	N_NNP	n	unk	sg	unk	d	0	B-NP
+భూమి	N_NN	n	unk	sg	unk	d	0	B-NP
+అన్నీ	QT_QTF	avy	unk	unk	unk	unk	0	B-NP
+గోళాలే	N_NN	n	unk	pl	unk	unk	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఊరికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+కొళాయిలు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+కావాలని	V_VM_VNF	v	any	any	any	unk	ఆలి_అని	B-VGNF
+అడిగాం	V_VM_VF	v	unk	pl	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇవి	DM_DMD	pn	fn	pl	3	d	0	B-NP
+నగల	N_NN	n	unk	pl	unk	o	టి	B-NP
+మూటలు	N_NN	n	unk	pl	unk	d	0	I-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పప్పుల	N_NN	n	unk	pl	unk	o	టి	B-NP
+పొడి	N_NN	n	unk	sg	unk	d	0	B-NP
+తవుడు	N_NN	n	unk	sg	unk	d	0	B-NP
+ఉండాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వారానికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+పండు	N_NN	v	unk	sg	2	unk	ఆజ్ఞార్థ	B-NP
+తప్పకుండా	V_VM_VNF	v	any	any	any	unk	అకుండా	B-VGNF
+పండుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+లోకం	N_NN	n	unk	sg	unk	d	0	B-NP
+తెలియని	V_VM_VNF	v	any	any	any	unk	అని	B-VGNF
+అమాయకురాలిని	N_NN	n	unk	sg	unk	unk	ని	B-NP
+కాదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొబ్బరి	N_NN	n	n	sg	unk	d	0	B-NP
+చెట్టులా	N_NN	n	n	pl	unk	unk	0	I-NP
+కనపడే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+చెట్టు	N_NN	n	n	sg	unk	d	0	I-NP
+ప్రతి	JJ	adj	unk	sg	unk	o	0	B-NP
+ఇంట్లోనూ	N_NN	n	n	sg	unk	unk	లో	I-NP
+సాధారణంగా	RP_RPD	n	n	sg	unk	unk	గా	B-RBP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బొప్పాయి	N_NN	n	unk	sg	unk	d	0	B-NP
+సులభంగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+పెరిగే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+చెట్టు	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కార్లు	N_NN	n	unk	sg	unk	d	0	B-NP
+నడుపుతున్నారు	V_VM_VF	v	fm	pl	3	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇలానే	RB	adv	unk	unk	unk	unk	unk	B-RBP
+ఉంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+తిజారా	N_NNP	n	fn	sg	3	d	0	B-NP
+క్షేత్రం	N_NN	n	fn	sg	3	d	0	I-NP
+గొప్పతనం	N_NN	n	fn	sg	3	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బిచ్చగాడు	N_NN	n	unk	sg	unk	d	0	B-NP
+తిరిగి	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+పోతుండగా	V_VAUX	v	any	any	any	unk	తూ_ఉండు_అ_గా	I-VGF
+కాంతం	N_NNP	n	unk	sg	unk	d	0	B-NP
+ఎదురయింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అవసరం	N_NN	n	unk	sg	unk	d	0	B-NP
+లేనపుడు	V_VM_VNF	adv	unk	unk	unk	unk	0	B-VGNF
+కాకుండేందుకు	V_VM_VNF	v	any	any	any	unk	అక_ఉండు_ఏ_ఏందుకు	B-VGNF
+మార్గం	N_NN	n	unk	sg	unk	d	0	B-NP
+ఏదో	PR_PRQ	pn	fn	sg	3	unk	0	B-NP
+ఆమెకు	PR_PRP	pn	f	sg	3	unk	కి	B-NP
+తెలిసిఉండాలి	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కాన్పులతో	N_NN	n	unk	pl	unk	unk	తో	B-NP
+సీతాలు	N_NNP	n	unk	sg	unk	d	0	B-NP
+పాడయింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పీడించేవారు	V_VM_VF	pn	unk	pl	unk	unk	ఏ_వారు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇరుగుపొరుగువారికి	N_NN	pn	unk	pl	unk	unk	కి	B-NP
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+సంగతి	N_NN	n	unk	sg	unk	d	0	B-NP
+తెలిసింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయినా	CC_CCD	v	any	any	any	unk	ఇనా	B-CCP
+కోళ్ల	N_NN	n	unk	pl	unk	o	టి	B-NP
+పెంపకమే	N_NN	n	unk	sg	unk	unk	0	B-NP
+ఎక్కువ	JJ	adj	unk	unk	unk	unk	0	B-NP
+లాభదాయకం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+షరతులో	N_NN	n	unk	pl	unk	unk	0	B-NP
+ఓడిపోయాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఎవరో	PR_PRQ	pn	fm	pl	3	unk	0	B-NP
+సాధువు	N_NN	n	unk	sg	unk	d	0	B-NP
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+ఊరికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+వచ్చాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇద్దరికీ	N_NN	avy	unk	unk	unk	unk	0	B-NP
+డబ్బు	N_NN	n	unk	sg	unk	d	0	B-NP
+వెసలుబాటు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గుడ్డలు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఉతకగూడదు	V_VM_VF	v	any	any	any	unk	అ_కూడదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఉత్తరం	N_NN	n	unk	sg	unk	d	0	B-NP
+రాయించాను	V_VM_VF	v	unk	sg	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రోగం	N_NN	n	unk	sg	unk	d	0	B-NP
+నయమవుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నీళ్లలో	N_NN	n	unk	pl	unk	unk	లో	B-NP
+కలుపుతారు	V_VM_VF	v	unk	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+భారతదేశం	N_NNP	n	unk	sg	unk	d	0	B-NP
+వదిలిపోండి	V_VM_VF	v	unk	pl	2	unk	ఆజ్ఞార్థ	B-VGF
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+ఉత్తరాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+రాసేవాడు	V_VM_VF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+"	RD_PUNC	punc	unk	unk	unk	unk	unk	B-NP
+నీవు	PR_PRP	pn	any	sg	2	d	0	I-NP
+ఇంటికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+వచ్చేయి	V_VM_VF	v	unk	sg	2	unk	ఆజ్ఞార్థ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+అందరిలాంటి	PR_PRP	pn	unk	pl	unk	unk	లాటి	B-NP
+ఆడపిల్లనే	N_NN	n	unk	sg	unk	unk	ని	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+ప	N_NN	n	unk	sg	unk	o	టి	B-NP
+అంతా	N_NN	avy	unk	unk	unk	unk	0	I-NP
+వదిలేసి	V_VM_VNF	v	any	any	any	unk	ఇ_వెయ్యి_ఇ	B-VGNF
+ఆసుపత్రికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఎపుడు	PR_PRQ	adv	unk	unk	unk	unk	0	B-NP
+వెళ్లేది	V_VM_VF	pn	unk	sg	unk	unk	ఏ_అది	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నేనే	PR_PRP	pn	any	sg	1	unk	0	B-NP
+అనాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నగరాలలో	N_NN	n	unk	pl	unk	unk	లో	B-NP
+విడాకులు	N_NN	n	unk	pl	unk	d	0	B-NP
+కోరేవారి	V_VM_VNF	pn	unk	pl	unk	unk	ఏ_వారు	B-VGNF
+సంఖ్య	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎక్కువ	JJ	adj	unk	unk	unk	unk	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గుంటూరులో	N_NNP	n	n	sg	unk	unk	లో	B-NP
+హైకోర్టు	N_NNP	n	n	sg	unk	d	0	B-NP
+ఏర్పాటు	N_NN	n	n	sg	3	d	0	B-NP
+చేసారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీని	PR_PRP	pn	fn	sg	3	o	టి	B-NP
+ఆకులు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఉడికించి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+కడితే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+వాపులు	N_NN	n	unk	pl	unk	d	0	B-NP
+తగ్గుతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇంటిలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+ఉండటమే	V_VM_VNG	n	unk	sg	unk	unk	అడం_0	B-VGNN
+మంచిది	N_NN	n	unk	sg	unk	unk	ది	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వేప	N_NN	n	unk	sg	unk	d	0	B-NP
+ఆకు	N_NN	n	unk	sg	unk	d	0	I-NP
+బాగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+నూరాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆశ	N_NN	n	unk	sg	unk	d	0	B-NP
+చావలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తగిన	JJ	adj	unk	unk	unk	unk	0	B-NP
+డాక్టర్లూ	N_NN	n	unk	pl	unk	unk	ఈ	I-NP
+,	RD_PUNC	punc	unk	unk	unk	unk	unk	B-CCP
+నర్సులూ	N_NN	n	unk	pl	unk	unk	ఈ	B-NP
+లేకపోవడం	V_VM_VNG	v	any	any	any	unk	అక_పో_అడం	B-VGNN
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దుమ్ము	N_NN	n	unk	sg	unk	d	0	B-NP
+కనపడుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బతుకుతెరువుకోసం	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+పట్నం	N_NN	n	unk	sg	unk	d	0	B-NP
+చేరారు	V_VM_VF	v	unk	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అప్పుడు	N_NST	adv	unk	unk	unk	unk	0	B-NP
+బయటనుంచి	N_NST	n	unk	sg	unk	unk	నించి	B-NP
+వచ్చే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+నీళ్లు	N_NN	n	unk	pl	unk	d	0	B-NP
+వడకట్టినట్టు	V_VM_VNF	v	any	any	any	unk	అన్	B-VGNF
+శుభ్రంగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+వస్తాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+ఏమి	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+తెలివి	N_NN	n	unk	sg	unk	d	0	I-NP
+ఇట్లా	RB	avy	unk	unk	unk	unk	0	B-RBP
+చంపుతున్నారు	V_VM_VF	v	unk	pl	3	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చిన్నతోటకూర	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+మొక్కలు	N_NN	n	unk	pl	unk	d	0	B-NP
+పొట్టిగా	RB	adj	unk	unk	unk	unk	గా	B-RBP
+ఉంటాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తులసి	N_NNP	n	unk	sg	unk	d	0	B-NP
+తగ్గిందని	V_VM_VNF	v	fn	sg	3	unk	ఆ_అని	B-VGNF
+గోలీలు	N_NN	n	unk	pl	unk	d	0	B-NP
+మానేసింది	V_VM_VF	v	fn	sg	3	unk	ఇ_వెయ్యి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఏళ్ల	N_NN	n	unk	pl	unk	o	టి	B-NP
+తరబడి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తులసి	N_NNP	n	unk	sg	unk	d	0	B-NP
+,	RD_PUNC	punc	unk	unk	unk	unk	unk	B-CCP
+రాములు	N_NNP	n	unk	sg	unk	d	0	B-NP
+కూలికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పోతారు	V_VM_VF	v	unk	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఏనాటికైనా	N_NST	unk	unk	unk	unk	unk	unk	B-NP
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+ధనవంతుడను	N_NN	n	unk	sg	unk	unk	ను	B-NP
+అవుతాను	V_VM_VF	v	unk	sg	1	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీనికి	PR_PRP	pn	fn	sg	3	unk	కి	B-NP
+చాలా	RP_INTF	avy	unk	unk	unk	unk	0	B-NP
+శక్తి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఖర్చు	N_NN	n	unk	sg	unk	d	0	B-NP
+అయిపోతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మీ	PR_PRP	pn	any	pl	2	o	టి	B-NP
+నమ్మకాలతో	N_NN	n	unk	pl	unk	unk	తో	I-NP
+కోలుకోకుండా	V_VM_VF	v	any	any	any	unk	అకుండా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	I-VGF
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-CCP
+దవాఖానాలో	N_NN	n	unk	pl	unk	unk	0	B-NP
+తిట్టారు	V_VM_VF	v	unk	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+విషయం	N_NN	n	unk	sg	unk	d	0	I-NP
+రాజలింగుకు	N_NNP	n	unk	sg	unk	unk	కి	B-NP
+తెలిసింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దాసు	N_NNP	n	unk	sg	unk	d	0	B-NP
+కనిపించలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వత్తిడి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎక్కువ	JJ	adj	unk	unk	unk	unk	0	B-JJP
+అవుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నేనూ	PR_PRP	pn	any	sg	1	unk	0	B-NP
+రాత్రి	N_NN	n	unk	sg	unk	d	0	B-NP
+బడికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పోతానని	V_VM_VNF	v	unk	sg	1	unk	తా_అని	B-VGNF
+మా	PR_PRP	pn	any	pl	1	o	టి	B-NP
+అమ్మను	N_NN	n	unk	sg	unk	unk	ను	B-NP
+అడిగాను	V_VM_VF	v	unk	sg	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అసలైన	JJ	n	unk	sg	unk	unk	ఐన	B-NP
+ఆరోగ్యం	N_NN	n	unk	sg	unk	d	0	I-NP
+కావాలంటే	V_VM_VF	v	any	any	any	unk	ఆలి_అంటే	B-VGF
+ఆమెకు	PR_PRP	pn	f	sg	3	unk	కి	B-NP
+ఆహారం	N_NN	n	unk	sg	unk	d	0	B-NP
+కావాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కోళ్లు	N_NN	n	unk	pl	unk	d	0	B-NP
+వణుకుతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పూత	N_NN	n	unk	sg	unk	d	0_కూడా	B-NP
+కూరలో	N_NN	n	unk	pl	unk	unk	0	B-NP
+వేసుకోవచ్చు	V_VM_VF	v	any	any	any	unk	కొన్_అ_వచ్చు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయినా	CC_CCD	avy	any	any	any	unk	ఇనా	B-CCP
+లంకెబిందెలు	N_NN	n	unk	pl	unk	d	0	B-NP
+కనపడలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బొప్పాయి	N_NN	n	unk	sg	unk	d	0	B-NP
+పండు	N_NN	v	unk	sg	2	unk	ఆజ్ఞార్థ	B-NP
+తినడానికి	V_VM_VNG	n	unk	sg	unk	unk	అడం_కి	B-VGNN
+రుచిగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పొదుగు	N_NN	n	unk	sg	unk	d	0	B-NP
+పాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+తాగింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇంతలో	N_NST	avy	unk	unk	unk	unk	0	B-NP
+చీకటి	N_NN	n	unk	sg	unk	d	0	B-NP
+పడింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బిడ్డ	N_NN	n	unk	sg	unk	d	0	B-NP
+తల్లి	N_NN	n	unk	sg	unk	d	0	B-NP
+కడుపులో	N_NN	n	unk	pl	unk	unk	0	B-NP
+పెరుగుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒకసారి	N_NN	n	unk	sg	unk	d	0	B-NP
+నావైపు	PR_PRP	pn	any	sg	1	unk	వైపు	B-NP
+చూసింది	V_VM_VNF	v	fn	sg	3	unk	ఆ	B-VGNF
+కాని	RP_RPD	avy	unk	unk	unk	unk	0	B-CCP
+మాట	N_NN	n	unk	sg	unk	d	0	B-NP
+వినిపించలేదేమో	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+తన	PR_PRP	pn	unk	sg	unk	o	టి	B-NP
+ఆలోచనలలో	N_NN	n	unk	pl	unk	unk	లో	B-NP
+నడుస్తూ	V_VM_VNF	v	any	any	any	unk	తూ	B-VGNF
+వెళుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఐనా	CC_CCS	avy	unk	unk	unk	unk	unk	B-CCP
+దుఃఖం	N_NN	n	unk	sg	unk	d	0	B-NP
+రాలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+జులాయిగ	RB	unk	unk	unk	unk	unk	unk	B-RBP
+తిరుగతడు	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బడి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఉంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తరచు	N_NN	adj	unk	unk	unk	unk	0	B-NP
+బడి	N_NN	n	unk	sg	unk	d	0	B-NP
+మానివేసేవాడు	V_VM_VNF	pn	unk	sg	unk	unk	ఇ_వెయ్యి_ఏ_వాడు	B-VGNF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అతను	PR_PRP	pn	m	sg	3	d	0	B-NP
+ఇంకో	QT_QTF	avy	unk	unk	unk	unk	0	B-NP
+పెళ్లి	N_NN	n	unk	sg	unk	d	0	I-NP
+చేసుకున్నాడని	V_VM_VNF	v	m	sg	3	unk	కొన్_ఆ_అని	B-VGNF
+విన్నాను	V_VM_VF	v	unk	sg	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అరటి	N_NN	n	unk	sg	unk	d	0	B-NP
+సులభంగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+బతుకుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీని	PR_PRP	pn	fn	sg	3	o	టి	B-NP
+అమ్మకంవలన	N_NN	n	unk	sg	unk	unk	వలన	B-NP
+ఆదాయం	N_NN	n	unk	sg	unk	d	0	B-NP
+500	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+రూపాయలు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+సందర్భంగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-JJP
+సభలో	N_NN	n	unk	pl	unk	unk	0	B-NP
+గాంధీజీ	N_NNP	n	unk	sg	unk	d	0	B-NP
+ప్రసంగిస్తునారు	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఊళ్లో	N_NN	n	unk	pl	unk	unk	0	B-NP
+నాటకాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+వేశారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఊరకనే	RP_RPD	avy	unk	unk	unk	unk	unk	B-BLK
+మాటలు	N_NN	n	unk	pl	unk	d	0	B-NP
+అనేది	V_VM_VF	pn	unk	sg	unk	d	0	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+లేకుంటే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+అందరూ	QT_QTF	avy	unk	pl	unk	unk	0	B-NP
+మగపిల్లలే	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దూడ	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎదిగాక	V_VM_VNF	v	any	any	any	unk	ఇన_ఆక	B-VGNF
+బయట	N_NST	n	unk	sg	unk	d	0	B-NP
+పడుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అంత	QT_QTF	n	unk	sg	unk	o	టి	B-NP
+పెద్ద	JJ	adj	unk	unk	unk	unk	0	B-NP
+అధికారిని	N_NN	n	unk	sg	unk	unk	ను	B-NP
+చూడడం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+నాకు	PR_PRP	pn	any	sg	1	unk	కి	B-NP
+అదే	PR_PRP	pn	fn	sg	3	unk	0	B-NP
+మొదటిసారి	N_NST	n	unk	sg	unk	d	0	B-NP
+		
+బంగారు	JJ	n	unk	sg	unk	d	0	B-NP
+కత్తి	N_NN	n	unk	sg	unk	d	0	I-NP
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-CCP
+మెడకోసుకుంటామా	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బెణుకుడు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+నయం	N_NN	n	unk	sg	unk	d	0	B-NP
+కావడానికి	V_VM_VNG	n	unk	sg	unk	unk	అడం_కి	B-VGNN
+మూడు	QT_QTC	n	unk	sg	2	d	0	B-NP
+నాలుగు	QT_QTC	n	unk	sg	unk	d	0	B-NP
+వారాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+పడుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నన్ను	PR_PRP	pn	any	sg	1	unk	ని	B-NP
+చావగొట్టింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గుండె	N_NN	n	unk	sg	unk	d	0	B-NP
+బలంతో	N_NN	n	unk	sg	unk	unk	తో	I-NP
+బతికింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రాజలింగు	N_NNP	n	unk	sg	unk	d	0	B-NP
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+సారి	N_NN	n	unk	sg	unk	d	0	I-NP
+ఉల్లిపాయలు	N_NN	n	unk	pl	unk	d	0	B-NP
+కొని	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+దాచాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+అంటే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+నా	PR_PRP	pn	any	sg	1	o	టి	B-NP
+మాట	N_NN	n	unk	sg	unk	d	0	B-NP
+వినడు	V_VM_VF	v	m	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆడపిల్లలు	N_NN	n	unk	pl	unk	d	0	B-NP
+అందరూ	PR_PRP	pn	unk	pl	unk	unk	0	B-NP
+తినగా	V_VM_VNF	v	any	any	any	unk	అ	B-VGNF
+చివర	RB	adv	unk	sg	unk	o	0	B-RBP
+తింటుంటారు	V_VM_VF	v	unk	pl	3	unk	తూ_ఉండు_తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రాజులు	N_NNP	n	unk	pl	unk	d	0	B-NP
+తల్లి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఇంట	QT_QTF	n	unk	sg	unk	unk	న	B-NP
+సుఖపడలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇంకో	N_NN	avy	unk	unk	unk	unk	0	B-NP
+కారణం	N_NN	n	unk	sg	unk	d	0	B-NP
+ఆడవాళ్లు	N_NN	n	unk	sg	unk	d	0	B-NP
+ఉండే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+చోట్లు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఆరోగ్యానికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+మంచివి	JJ	pn	unk	pl	unk	unk	ది	B-JJP
+కావు	V_VM_VF	v	n	pl	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అవిసె	N_NN	n	unk	sg	unk	d	0	B-NP
+పంటను	N_NN	n	unk	sg	unk	unk	ను	I-NP
+చాళ్లలో	N_NN	n	unk	pl	unk	unk	లో	B-NP
+వేయవలసి	V_VM_VF	v	any	any	any	unk	అ_వలయు_ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పరవాలేదు	V_VM_VF	avy	unk	unk	unk	unk	0	B-VGF
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-CCP
+సీత	N_NNP	n	unk	sg	unk	d	0	B-NP
+తులసిని	N_NNP	n	unk	sg	unk	unk	ను	B-NP
+లేపింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీని	PR_PRP	pn	fn	sg	3	o	టి	B-NP
+ఆకు	N_NN	n	unk	sg	unk	d	0	B-NP
+అమ్ముకోవచ్చు	V_VM_VF	v	any	any	any	unk	కొన్_అ_వచ్చు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గర్భవతి	N_NN	n	unk	sg	unk	d	0	B-NP
+కావాలో	V_VM_VNF	avy	unk	unk	unk	unk	ఓ	B-VGNF
+ఆమె	PR_PRP	pn	f	sg	3	d	0	B-NP
+నిర్ణయించుకొనే	V_VM_VNF	v	any	any	any	unk	కొన్	B-VGNF
+వీలుండాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నాకు	PR_PRP	pn	any	sg	1	unk	కి	B-NP
+కలలో	N_NN	n	unk	pl	unk	unk	0	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+దేవత	N_NN	n	unk	sg	unk	d	0	B-NP
+కనిపించింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొన్ని	QT_QTF	pn	unk	pl	unk	d	0	B-NP
+రకాల	N_NN	n	unk	pl	unk	o	టి	B-NP
+రోగాలకు	N_NN	n	unk	pl	unk	unk	కి	B-NP
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+యోగాసనాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-JJP
+గొప్ప	JJ	adj	unk	unk	unk	unk	0	B-NP
+మందు	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నాటుకోళ్లు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+గుడ్లు	N_NN	n	unk	pl	unk	d	0	B-NP
+తక్కువ	JJ	adj	unk	sg	unk	unk	0	B-JJP
+పెట్టడానికి	V_VM_VNG	n	unk	sg	unk	unk	అడం_కి	B-VGNN
+కారణం	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒకామెకు	N_NN	pn	unk	sg	unk	unk	కి	B-NP
+మెళకువులు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+నేర్పాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చెరువు	N_NN	n	unk	sg	unk	d	0	B-NP
+గట్టుకు	N_NN	n	unk	sg	unk	unk	కి	I-NP
+పోయినపుడు	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+దెయ్యం	N_NN	n	unk	sg	unk	d	0	B-NP
+పట్టినదేమో	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మిరప	N_NN	n	unk	sg	unk	d	0	B-NP
+పంట	N_NN	n	unk	sg	unk	d	0	I-NP
+సరిగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+రాలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మంచి	JJ	adj	unk	sg	unk	o	0	B-NP
+ఆహారం	N_NN	n	unk	sg	unk	d	0	B-NP
+అందించాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పురుగు	N_NN	n	unk	sg	unk	d	0	B-NP
+మందుల	N_NN	n	unk	pl	unk	o	టి	B-NP
+వాడకం	N_NN	n	unk	sg	unk	d	0	B-NP
+అవసరం	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎక్కువగా	N_NN	adj	unk	unk	unk	unk	గా	B-NP
+ఉండదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇంకో	QT_QTF	avy	unk	unk	unk	unk	0	B-NP
+రకంతో	N_NN	n	unk	sg	unk	unk	తో	B-NP
+మగపిల్లలే	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+పుడతారు	V_VM_VF	v	fm	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+అలసిపోయాను	V_VM_VF	v	unk	sg	1	unk	ఇ_పో	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+బిచ్చగాడు	N_NN	n	unk	sg	unk	d	0	B-NP
+అడిగాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఎండుగడ్డికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+అలవాటు	N_NN	n	unk	sg	unk	d	0	B-NP
+చేయాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయినా	CC_CCD	v	any	any	any	unk	ఇనా	B-CCP
+		
+దానిలో	PR_PRP	pn	fn	sg	3	unk	లో	B-NP
+పాల	N_NN	n	unk	pl	unk	o	టి	B-NP
+దిగుబడి	N_NN	n	unk	sg	unk	d	0	B-NP
+గుణంలేదు	V_VM_VF	unk	unk	unk	unk	unk	unk	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పేరుకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+రెండు	QT_QTC	n	unk	sg	unk	d	0	B-NP
+గేదెల	N_NN	n	unk	pl	unk	o	టి	I-NP
+పాడి	N_NN	n	unk	sg	unk	d	0	B-NP
+కాని	RP_RPD	avy	unk	unk	unk	unk	0	B-CCP
+రోజుకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+లీటరు	QT_QTF	n	unk	sg	unk	d	0	B-NP
+పాలు	N_NN	n	unk	pl	unk	d	0	I-NP
+రావు	V_VM_VF	v	n	pl	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రోగాల	N_NN	n	unk	pl	unk	o	టి	B-NP
+బారినుండి	N_NN	n	unk	sg	unk	unk	నించి_కూడా	B-NP
+కాపాడుకోవచ్చు	V_VM_VF	v	any	any	any	unk	కొన్_అ_వచ్చు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొడుకుని	N_NN	n	unk	sg	unk	unk	ని	B-NP
+కనకపోవడం	V_VM_VNG	v	any	any	any	unk	అక_పో_అడం	B-VGNN
+సీతాలుదే	N_NNP	pn	unk	sg	unk	unk	ది_0	B-NP
+తప్పు	N_NN	n	unk	sg	unk	d	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-VGF
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+అందరితో	PR_PRP	pn	unk	pl	unk	unk	తో	B-NP
+అనేవాడు	V_VM_VF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇంటికాడ	N_NN	n	unk	sg	unk	unk	కాడ	B-NP
+కాలు	N_NN	n	unk	sg	unk	d	0	B-NP
+నిలవదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+లేదా	CC_CCD	avy	unk	unk	unk	unk	unk	B-CCP
+చలి	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎక్కువగా	RB	adj	unk	unk	unk	unk	గా	B-RBP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రోజు	N_NN	n	unk	sg	unk	d	0	B-NP
+రోజుకు	N_NN	n	unk	sg	unk	unk	కి	I-NP
+పెరిగింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+హస్తినాపురంలో	N_NNP	n	fn	sg	3	o	లో	B-NP
+ప్రక్షాలన	N_NN	n	fn	sg	3	o	టి	B-NP
+మరియు	CC_CCD	avy	unk	unk	unk	unk	0	B-CCP
+పూజార్చన	N_NN	n	fn	sg	3	d	0	B-NP
+సమయం	N_NN	n	fn	sg	3	d	0	I-NP
+ఉదయం	N_NN	n	fn	sg	3	d	0	B-NP
+ఎనిమిది	QT_QTC	num	unk	sg	unk	d	unk	I-NP
+గంటల	N_NN	n	fn	pl	3	o	టి_నుండి	I-NP
+సాయంత్రం	N_NN	n	fn	sg	3	d	0	B-NP
+ఐదు	QT_QTC	num	unk	sg	unk	d	unk	I-NP
+గంటల	N_NN	n	fn	pl	3	o	టి_వరకు	I-NP
+మరియు	CC_CCD	avy	unk	unk	unk	unk	0	B-CCP
+దిగంబర	N_NN	n	fn	sg	3	o	టి	B-NP
+జైనదేవాలయంలో	N_NN	n	fn	sg	3	o	లో	I-NP
+పూజచేసే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+సమయం	N_NN	n	fn	sg	3	d	0	B-NP
+ఉదయం	N_NN	n	fn	sg	3	d	0	B-NP
+ఏడు	QT_QTC	num	unk	unk	unk	unk	unk	I-NP
+గంటలకు	N_NN	n	fn	pl	3	o	కి	I-NP
+ప్రారంభమవుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దానికి	PR_PRP	pn	fn	sg	3	unk	కి	B-NP
+తోడు	N_NN	n	unk	sg	2	d	0	B-NP
+జీవహింస	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+చేసే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+స్వభావం	N_NN	n	unk	sg	unk	d	0_కూడా	B-NP
+కాదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అక్టోబరు	N_NN	n	unk	sg	unk	d	0	B-NP
+మొదటివారంలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+పిచికారీ	N_NN	n	unk	sg	unk	d	0	B-NP
+చేస్తే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+అసలు	N_NN	n	unk	sg	unk	d	0	B-NP
+పురుగు	N_NN	n	unk	sg	unk	d	0	B-NP
+పట్టదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చుక్కలు	N_NN	n	unk	pl	unk	d	0	B-NP
+కనపడతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+దీనిని	PR_PRP	pn	fn	sg	3	unk	ను	B-NP
+మనం	PR_PRP	pn	any	pl	1	d	0	B-NP
+గమనించాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఎనిమిది	QT_QTC	n	unk	sg	unk	d	0	B-NP
+గంటల	N_NN	n	unk	pl	unk	o	టి	B-NP
+బస్సు	N_NN	n	unk	sg	unk	d	0_గురించి	B-NP
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+ఊళ్లో	N_NN	n	unk	pl	unk	unk	0	B-NP
+అందరికీ	PR_PRP	pn	unk	pl	unk	unk	కి	B-NP
+తెలుసు	V_VM_VF	v	any	any	any	unk	ఏ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కడదాకా	N_NST	n	unk	sg	unk	unk	దాకా	B-NP
+నిలబడే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+ప్రయాణం	N_NN	n	unk	sg	unk	d	0	B-NP
+చెయ్యాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తల్లికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పిల్లకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+బాధ	N_NN	n	unk	sg	unk	d	0	B-NP
+తప్పదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సగం	QT_QTF	n	unk	sg	unk	d	0	B-NP
+ఉప్పు	N_NN	n	unk	sg	unk	d	0	I-NP
+కరిగిపోయింది	V_VM_VF	v	fn	sg	3	unk	ఇ_పో	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+రోజు	N_NN	n	unk	sg	unk	d	0	I-NP
+ఆవు	N_NN	n	unk	sg	unk	d	0	B-NP
+ఈనింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొత్తిమీర	N_NN	n	unk	sg	unk	d	0	B-NP
+దనియాలు	N_NN	n	unk	sg	unk	d	0	B-NP
+చల్లితే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+మొలిచే	V_VM_VNF	v	any	any	any	unk	ఏ	B-VGNF
+మొక్కలే	N_NN	n	unk	sg	unk	unk	0_లే	B-NP
+కొత్తిమీర	N_NN	n	unk	sg	unk	d	0	B-NP
+		
+ముక్కులో	N_NN	n	unk	pl	unk	unk	0_నుంచి	B-NP
+చీము	N_NN	n	unk	sg	unk	d	0	B-NP
+కారుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొవ్వు	N_NN	n	unk	sg	unk	d	0	B-NP
+తక్కువగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+ఉంటుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వీరిని	PR_PRP	pn	fm	pl	3	unk	ని	B-NP
+బాగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+పెంచాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఎవ్వరూ	PR_PRQ	pn	unk	pl	unk	unk	0	B-NP
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+మడుగు	N_NN	n	unk	sg	unk	d	0	B-NP
+దగ్గరగా	RB	avy	unk	unk	unk	unk	unk	B-RBP
+దొడ్డికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+పోకుండా	V_VM_VNF	v	any	any	any	unk	అకుండా	B-VGNF
+చూడాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+తరువాత	N_NST	adv	unk	unk	unk	unk	0	B-NP
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+మీ	PR_PRP	pn	any	sg	2	o	టి	B-NP
+పెన్సిల్	N_NN	n	unk	sg	unk	d	0	B-NP
+వెదికి	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+పెడతాను	V_VAUX	v	unk	sg	1	unk	తా	I-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+రోజు	N_NN	n	unk	sg	unk	d	0	B-NP
+రాత్రి	N_NN	n	unk	sg	unk	d	0	B-NP
+చీకటి	N_NN	n	unk	sg	unk	d	0	B-NP
+చాలా	RP_INTF	avy	unk	unk	unk	unk	0	B-NP
+దట్టంగా	RB	n	unk	sg	unk	d	0	B-NP
+ఉంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పుట్టగానే	V_VM_VNF	v	any	any	any	unk	అ_గానే	B-VGNF
+తల్లి	N_NN	n	unk	sg	unk	d	0	B-NP
+పొట్టమీద	N_NN	n	unk	sg	unk	unk	మీద	B-NP
+ఉంచాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+కమల	N_NNP	n	unk	sg	unk	d	0	B-NP
+అడిగింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మొదలు	N_NN	n	unk	sg	unk	d	0	B-NP
+వరుసగా	RB	avy	unk	unk	unk	unk	0	B-RBP
+నలుగురు	N_NN	n	unk	unk	unk	unk	రు	B-NP
+ఆడసంతానం	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నాకు	PR_PRP	pn	any	sg	1	unk	కి	B-NP
+కలలో	N_NST	n	unk	pl	unk	unk	0	B-NP
+ఒక	JJ	adj	unk	unk	unk	unk	0	B-NP
+దేవత	N_NN	n	unk	sg	unk	d	0	I-NP
+కనిపించింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఖర్చులకు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+డబ్బు	N_NN	n	unk	sg	unk	d	0	B-NP
+లేదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ద్వాదశ	N_NN	n	n	sg	unk	o	టి	B-NP
+జ్యోతిర్లింగాల్లో	N_NN	n	n	pl	unk	unk	లో	I-NP
+ఒకటి	N_NN	v	any	any	any	d	ఇన	B-NP
+లింగం	N_NN	n	n	sg	unk	d	0	B-NP
+ఉంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రాజకీయ	N_NN	n	unk	sg	unk	o	టి	B-NP
+బాధ్యతలు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఆమె	PR_PRP	pn	f	sg	3	d	0_నుండి	B-NP
+తప్పించాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఊరి	N_NN	n	unk	sg	unk	o	టి	B-NP
+పొలిమేర	N_NN	n	unk	sg	unk	d	0	B-NP
+దాటారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కానీ	CC_CCD	avy	unk	unk	unk	unk	0	B-CCP
+పొలం	N_NN	n	unk	sg	unk	d	0	B-NP
+పనులు	N_NN	n	unk	pl	unk	d	0	B-NP
+చేయడు	V_VM_VF	v	m	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మొగుడు	N_NN	n	unk	sg	unk	d	0	B-NP
+చూడడానికి	V_VM_VNG	n	unk	sg	unk	unk	అడం_కి	B-VGNN
+బాగానే	RB	avy	unk	unk	unk	unk	0	B-RBP
+ఉంటాడు	V_VM_VF	v	m	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రక్తంతో	N_NN	n	unk	sg	unk	unk	తో	B-NP
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+అందుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సొంత	N_NN	n	unk	sg	unk	o	టి	B-NP
+కాళ్ల	N_NN	n	unk	pl	unk	o	టి	I-NP
+నిలబడ్డం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+తెలుసుకోవాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొడుకు	N_NN	n	unk	sg	unk	d	0	B-NP
+పుట్టాడని	V_VM_VNF	v	m	sg	3	unk	ఆ_అని	B-VGNF
+మా	PR_PRP	pn	any	pl	1	o	టి	B-NP
+నాయన	N_NN	n	unk	sg	unk	d	0	B-NP
+సంబరపడిపోయాడు	V_VM_VF	v	m	sg	3	unk	ఇ_పో_ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పది	QT_QTC	n	unk	sg	unk	d	0	B-NP
+సంచుల	N_NN	n	unk	pl	unk	o	టి	I-NP
+పసుపుని	N_NN	n	unk	sg	unk	unk	ని	B-NP
+ఆరు	QT_QTC	v	unk	sg	2	unk	ఆజ్ఞార్థ	B-NP
+నెలలు	N_NN	n	unk	pl	unk	d	0	I-NP
+ఉంచాను	V_VM_VF	v	unk	sg	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మొక్కలు	N_NN	n	unk	pl	unk	d	0	B-NP
+ఎదగాలంటే	V_VM_VNF	v	any	any	any	unk	ఆలి_అంటే	B-VGNF
+జానెడు	QT_QTF	n	unk	sg	unk	d	0	B-NP
+లోతు	N_NN	n	unk	sg	unk	d	0	I-NP
+దున్నాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇతర	JJ	avy	unk	unk	unk	unk	0	B-NP
+రోగాలతోబాటు	N_NN	n	unk	pl	unk	unk	తోపాటు	B-NP
+ఇది	PR_PRP	pn	fn	sg	3	d	0	B-NP
+సులభంగా	RB	n	unk	sg	unk	unk	గా	B-RBP
+వస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నిర్ణయం	N_NN	n	unk	sg	unk	d	0	B-NP
+వాళ్లే	PR_PRP	pn	fm	pl	3	unk	0	B-NP
+తీసుకోవాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కమల	N_NNP	n	unk	sg	unk	d	0	B-NP
+ఏమీ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+అనలేకపోయేది	V_VM_VF	pn	unk	sg	unk	unk	అ_గల_అక_పో_ఏ_అది	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	pn	unk	unk	unk	unk	unk	B-NP
+స్తంభం	N_NN	n	fn	sg	3	d	0	I-NP
+దర్శనంతోనే	N_NN	n	fn	sg	3	o	తో	B-NP
+వ్యక్తుల	N_NN	n	any	pl	3	o	టి	B-NP
+గర్వం	N_NN	n	fn	sg	3	d	0	B-NP
+తగ్గిపోతుంది	V_VM_VF	v	fn	sg	3	unk	ఇ_పో_తూ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అందుకే	CC_CCD	avy	unk	unk	unk	unk	unk	B-CCP
+నేలమీదనుంచే	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+చూడాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పీర్హుస్సేన్	N_NNP	unk	unk	unk	unk	unk	unk	B-NP
+సహాయంతో	N_NN	n	unk	sg	unk	unk	తో	B-NP
+ఆమెతో	PR_PRP	pn	f	sg	3	unk	తో	B-NP
+మాట్లాడుతున్నాను	V_VM_VF	v	unk	sg	1	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వాడి	PR_PRP	n	m	sg	3	d	0	B-NP
+నేను	PR_PRP	pn	any	sg	1	d	0	B-NP
+సంతానహీనురాలిని	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+అయినాను	V_VM_VF	v	unk	sg	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఐతే	CC_CCS	avy	unk	unk	unk	unk	0	B-CCP
+,	RD_PUNC	punc	unk	unk	unk	unk	unk	I-CCP
+రోగాల	N_NN	n	unk	pl	unk	o	టి	B-NP
+విషయంలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+ప్రత్యేక	JJ	n	unk	sg	unk	o	టి	B-NP
+శ్రద్ధ	N_NN	n	unk	sg	unk	d	0	B-NP
+తీసికోవాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయినా	V_VM_VNF	v	any	any	any	unk	ఇనా	B-VGNF
+ఏమీ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+చేయలేదు	V_VM_VF	v	any	any	any	unk	అ_లేదు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మిగతా	JJ	n	unk	sg	unk	d	0	B-NP
+కో్లు	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+దీనిని	PR_PRP	pn	fn	sg	3	unk	ను	B-NP
+పట్టి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+పీకుతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మాయ	N_NN	n	unk	sg	unk	d	0	B-NP
+బిడ్డ	N_NN	n	unk	sg	unk	d	0	B-NP
+పుట్టినపుడు	V_VM_VNF	unk	unk	unk	unk	unk	unk	B-VGNF
+బయటకు	N_NST	avy	unk	unk	unk	unk	0	B-NP
+వస్తుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చివరి	N_NST	nst	unk	unk	unk	unk	యొక్క	B-NP
+పాలు	N_NN	n	unk	sg	unk	d	0	B-NP
+దూడకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+వదల	V_VM_VF	v	any	any	any	unk	అన్	B-VGF
+కూడదు	V_VAUX	avy	fn	sg	3	unk	unk	I-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అప్పుడప్పుడు	N_NST	avy	unk	unk	unk	unk	0	B-NP
+బిడ్డకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+ఊపిరి	N_NN	n	unk	sg	unk	d	0	B-NP
+అందదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+క్షయ	N_NN	n	unk	sg	unk	d	0	B-NP
+ఒకరి	N_NN	pn	unk	pl	unk	o	టి	B-NP
+మరొకరికి	N_NN	pn	unk	pl	unk	unk	కి	B-NP
+అంటుకుంటుందా	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పలుగు	N_NN	n	unk	sg	unk	d	0	B-NP
+పార	N_NN	n	unk	sg	unk	d	0	I-NP
+తీసుకున్నాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వాళ్లకు	PR_PRP	pn	fm	pl	3	unk	కి	B-NP
+ఏమీ	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+జబ్బులు	N_NN	n	unk	pl	unk	d	0	B-NP
+రావా	V_VM_VF	v	n	pl	3	unk	అ	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సోములు	N_NNP	n	unk	sg	unk	d	0	B-NP
+వినేవాడు	V_VM_VF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGF
+కాడు	V_VAUX	n	unk	sg	unk	d	0	I-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+వీటి	PR_PRP	pn	fn	pl	3	o	టి_వలన	B-NP
+మనకు	PR_PRP	pn	any	pl	1	unk	కి	B-NP
+రాని	V_VM_VNF	v	any	any	any	unk	అని	B-VGNF
+చేటు	N_NN	n	unk	sg	unk	d	0	B-NP
+లేదు	V_VM_VF	v	fn	sg	3	unk	అ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆయనకు	PR_PRP	pn	unk	sg	unk	unk	కి	B-NP
+అందరం	QT_QTF	avy	unk	unk	unk	unk	unk	B-NP
+కలిసి	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+అర్జీ	N_NN	n	unk	sg	unk	d	0	B-NP
+పెట్టుకొన్నాం	V_VM_VF	v	unk	pl	1	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అయితే	CC_CCS	avy	unk	unk	unk	unk	0	B-CCP
+కాలు	N_NN	n	unk	sg	unk	d	0	B-NP
+ఇరుక్కుపోయింది	V_VM_VF	v	fn	sg	3	unk	ఇ_పో_ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+రాసినాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అని	CC_CCS_UT	avy	unk	unk	unk	unk	0	B-BLK
+డాక్టరు	N_NN	n	unk	sg	unk	d	0	B-NP
+అన్నాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆకాశంలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+మబ్బులు	N_NN	n	unk	pl	unk	d	0	B-NP
+కనపడతాయి	V_VM_VF	v	n	pl	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గుర్తుంచుకోవలసినది	V_VM_VF	v	fn	sg	3	unk	వలయు_ఇన_అది	B-VGF
+ఏమిటి	PR_PRQ	pn	unk	unk	unk	d	0	B-NP
+అంటే	CC_CCS	avy	unk	unk	unk	unk	0	B-CCP
+శివవల్లభపురం	N_NNP	n	fn	sg	3	d	0	B-NP
+ఇప్పుడు	PR_PRP	pn	unk	sg	unk	d	0	B-NP
+గఢ్‌ముక్తేశ్వర్	N_NNP	n	fn	sg	3	d	0	B-NP
+పేరుతో	N_NN	n	fn	sg	3	o	తో	B-NP
+పిలువబడుతోంది	V_VM_VF	v	fn	sg	3	unk	తున్న్	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చదువుండాలి	V_VM_VF	v	any	any	any	unk	ఇ_ఉండు_ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆడవాళ్లకు	N_NN	pn	unk	pl	unk	unk	వాళ్లు_కి	B-NP
+ఆపరేషన్లు	N_NN	n	unk	pl	unk	d	0	B-NP
+చేయించాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అడవిలోని	N_NN	n	unk	sg	unk	unk	లోని	B-NP
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+పేదవారు	N_NN	n	unk	sg	unk	unk	వారు	B-NP
+మీకేం	PR_PRP	unk	unk	unk	unk	unk	unk	B-NP
+చేశారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మునగ	N_NN	n	unk	sg	unk	d	0	B-NP
+కాయలు	N_NN	n	unk	pl	unk	d	0	B-NP
+అమ్ముకోవచ్చు	V_VM_VF	v	any	any	any	unk	కొన్_అ_వచ్చు	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చీకటి	N_NN	n	unk	sg	unk	d	0	B-NP
+పడింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+సీతాలును	N_NNP	n	unk	sg	unk	unk	ను	B-NP
+సూటిపోటి	JJ	unk	unk	unk	unk	unk	unk	B-NP
+మాటలు	N_NN	n	unk	pl	unk	d	0	B-NP
+అనేవాడు	V_VM_VNF	pn	unk	sg	unk	unk	ఏ_వాడు	B-VGNF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గోడలమీద	N_NN	n	unk	pl	unk	unk	మీద	B-NP
+బలం	N_NN	adj	unk	unk	unk	unk	ది	B-NP
+పడుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఆ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+మడుగు	N_NN	n	unk	sg	unk	d	0	B-NP
+అందరూ	PR_PRP	pn	unk	pl	unk	unk	0	B-NP
+మంచినీళ్లకే	N_NN	n	unk	pl	unk	unk	కి	B-NP
+వాడాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పాలు	N_NN	n	unk	pl	unk	d	0	B-NP
+పెరగాలంటే	V_VM_VF	v	any	any	any	unk	ఆలి_అంటే	B-VGF
+-	RD_SYM	punc	unk	unk	unk	unk	unk	I-VGF
+పాడి	N_NN	n	unk	sg	unk	d	0	B-NP
+పశువుల	N_NN	n	unk	pl	unk	o	టి	B-NP
+మేత	N_NN	n	unk	sg	unk	d	0	B-NP
+సరఐన	JJ	unk	unk	unk	unk	unk	unk	B-NP
+మోతాదులో	N_NN	n	unk	pl	unk	unk	0	I-NP
+ఉండాలి	V_VM_VF	v	any	any	any	unk	ఆలి	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఫజ్జాను	N_NNP	n	unk	sg	unk	unk	ను	B-NP
+తీసుకుని	V_VM_VNF	v	any	any	any	unk	ఇ	B-VGNF
+ఇంటికి	N_NN	n	unk	sg	unk	unk	కి	B-NP
+వెళ్లిపొమ్మని	V_VM_VNF	v	unk	sg	2	unk	ఆజ్ఞార్థ_మను	B-VGNF
+చెప్పాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఈ	DM_DMD	avy	unk	unk	unk	unk	unk	B-NP
+పంటను	N_NN	n	unk	sg	unk	unk	ను	B-NP
+అక్టోబరు	N_NN	n	unk	sg	unk	d	0	B-NP
+మొదటి	N_NST	nst	unk	unk	unk	unk	యొక్క	B-NP
+వారంలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+వేయడం	V_VM_VNG	v	any	any	any	unk	అడం	B-VGNN
+మంచిది	JJ	avy	unk	unk	unk	unk	0	B-JJP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+చనిపోతే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+తలకు	N_NN	n	unk	sg	unk	d	0	B-NP
+కొరివి	N_NN	n	unk	sg	unk	d	0	B-NP
+పెడతాడు	V_VM_VF	v	m	sg	3	unk	తా	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+నిజమే	N_NN	n	unk	sg	unk	unk	0	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+పగలు	N_NN	n	unk	sg	unk	d	0	B-NP
+ఎలా	PR_PRQ	avy	unk	unk	unk	unk	0	B-NP
+ఏర్పడుతుంది	V_VM_VF	v	fn	sg	3	unk	తా	B-VGF
+?	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+కొబ్బరిలో	N_NN	n	unk	sg	unk	unk	లో	B-NP
+సంకరజాతివి	N_NN	n	unk	sg	unk	unk	వి	B-NP
+నాటుకొంటే	V_VM_VNF	v	any	any	any	unk	తే	B-VGNF
+మంచిది	JJ	adj	unk	sg	unk	unk	0	B-JJP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+మనుషులుకూడా	N_NN	n	unk	pl	unk	unk	కూడా	B-NP
+ఉపగ్రహాలను	N_NN	n	unk	pl	unk	unk	ని	B-NP
+తయారుచేశారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గుర్తుంచుకోండి	V_VM_VF	v	unk	unk	unk	unk	ఆజ్ఞార్థ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+ఇందులో	PR_PRP	avy	unk	unk	unk	unk	unk	B-NP
+మన	PR_PRP	pn	any	pl	1	o	టి	B-NP
+రాష్ట్రం	N_NN	n	n	sg	unk	d	0	B-NP
+ముందుంజ	N_NN	unk	unk	unk	unk	unk	unk	B-NP
+వేసింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అదే	PR_PRP	pn	fn	sg	3	unk	0	B-NP
+గోపాలంతో	N_NNP	n	unk	sg	unk	unk	తో	B-NP
+అంది	V_VM_VF	v	any	any	any	unk	ఇ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+బాహుబలి	N_NNP	n	m	sg	3	d	0	B-NP
+పోదన్పురాన్ని	N_NNP	n	fn	sg	3	o	ని	B-NP
+పరిపాలించాడు	V_VM_VF	v	m	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+4	QT_QTC	num	unk	unk	unk	unk	unk	B-NP
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+అస్సాంలో	N_NN	n	n	sg	unk	unk	లో	B-NP
+తేయాకు	N_NN	n	n	sg	unk	d	0	B-NP
+వ్యవసాయం	N_NN	n	n	sg	unk	d	0	B-NP
+బ్రిటిషువారు	N_NN	n	unk	sg	unk	unk	వారు	B-NP
+వృద్ధి	N_NN	n	n	pl	unk	d	0	B-NP
+చేశారు	V_VM_VF	v	fm	pl	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+రమ	N_NNP	n	unk	sg	unk	d	0	B-NP
+నాయనకు	N_NN	n	unk	sg	unk	unk	కి	B-NP
+కబురు	N_NN	n	unk	sg	unk	d	0	B-NP
+చేసింది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK
+		
+గోపాలంకు	N_NNP	n	unk	sg	unk	unk	కి	B-NP
+పందెం	N_NN	n	unk	sg	unk	d	0	B-NP
+గెలవాలని	V_VM_VNF	v	any	any	any	unk	ఆలి_అని	B-VGNF
+ఉంది	V_VM_VF	v	fn	sg	3	unk	ఆ	B-VGF
+.	RD_PUNC	punc	unk	unk	unk	unk	unk	B-BLK

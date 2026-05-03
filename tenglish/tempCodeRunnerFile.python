@@ -1,0 +1,8 @@
+import csv
+with open(r"c:\COLLEGE\CL-1-project\tenglish\data\raw\train_pos.csv") as f:
+    rows = list(csv.DictReader(f))
+
+print("Total rows:", len(rows))
+print("First 10 rows:")
+for r in rows[:10]:
+    print(r)

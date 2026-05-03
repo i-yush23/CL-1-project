@@ -1,5 +1,3 @@
- 
-
 import json
 import os
 import re
@@ -22,10 +20,17 @@ _EN_CONTRACTIONS = {
     "that's", "what's", "there's", "here's", "let's",
 }
 
+# Telugu Unicode block: U+0C00–U+0C7F
+_TELUGU_RE = re.compile(r"[\u0C00-\u0C7F]")
+
+# Tokens that are mostly digits/symbols with a few letters (100rs, 2pm, no1)
+_MOSTLY_NUMERIC_RE = re.compile(r"^[0-9@#$%&*+\-./\\:;=?^_`|~]*[a-zA-Z]{0,3}[0-9]*$")
+
 
 def _normalize_elongated(word: str) -> str:
-    """Collapse 3+ repeated chars to 2 (yaaarr → yaar, pleaaase → please)."""
-    return re.sub(r'(.)\1{2,}', r'\1\1', word)
+    """Collapse 4+ repeated chars to 2 (yaaaaar → yaar), but leave 3-char runs
+    untouched so genuine geminate Telugu romanisations (cheyyi, nuvvu) survive."""
+    return re.sub(r'(.)\1{3,}', r'\1\1', word)
 
 
 class CodeswitchSegmenter:
@@ -59,27 +64,36 @@ class CodeswitchSegmenter:
     # ------------------------------------------------------------------
 
     def _is_universal(self, token: str) -> bool:
-        """True for punctuation, pure-digit tokens, URLs, hashtags, mentions."""
+        """True for punctuation, pure-digit tokens, URLs, hashtags, mentions,
+        and mixed alphanumeric tokens that carry no language signal."""
         if not token:
             return True
         if token.startswith(("#", "@", "http")):
             return True
         if token.isdigit():
             return True
-        # purely non-alpha (punctuation / symbols) but NOT alphanumeric mixes
+        # purely non-alpha (punctuation / symbols)
         if all(c in string.punctuation or not c.isalpha() for c in token):
+            return True
+        # mixed tokens like 100rs, 2pm, no1, v2, r2d2
+        if _MOSTLY_NUMERIC_RE.match(token.lower()):
             return True
         return False
 
     def _classify_one(self, token: str) -> str:
         """Classify a single alpha token; returns 'TE', 'EN', or 'UNKNOWN'."""
+
+        # HARD RULE 1: any Telugu Unicode character → TE immediately
+        if _TELUGU_RE.search(token):
+            return "TE"
+
         # English contractions
         if token.lower() in _EN_CONTRACTIONS:
             return "EN"
 
         tok_low = token.lower()
 
-        # Normalize elongated tokens (yaaarr → yaar)
+        # Normalize elongated tokens (yaaaaar → yaar, but nuvvu stays nuvvu)
         tok_norm = _normalize_elongated(tok_low)
 
         # Transliteration normalization
@@ -89,6 +103,14 @@ class CodeswitchSegmenter:
         if norm in self.te_indicators:
             return "TE"
         if norm in self.en_indicators:
+            return "EN"
+
+        # Also try the un-normalised form (catches elongated forms like "heyyyy"
+        # where the normalised "heyy" might not be in the EN list but "hey" is)
+        norm_extra = fallback_dict.get(tok_low, tok_low)
+        if norm_extra in self.te_indicators:
+            return "TE"
+        if norm_extra in self.en_indicators:
             return "EN"
 
         # Phonetic hash fallback
@@ -118,32 +140,34 @@ class CodeswitchSegmenter:
             else:
                 raw_labels.append(self._classify_one(token))
 
-        # Context smoothing: resolve UNKNOWN using wider window (±2 neighbours)
+        # Context smoothing: resolve UNKNOWN using wider window (±3 neighbours)
+        # Collect ALL neighbours first, then take a weighted majority vote.
         final_labels: list[str] = []
         for i, label in enumerate(raw_labels):
             if label != "UNKNOWN":
                 final_labels.append(label)
                 continue
 
-            # Collect up to 2 left and 2 right non-UNI/non-UNKNOWN neighbours
-            candidates: list[str] = []
-            for offset in range(1, 3):
-                if i - offset >= 0 and raw_labels[i - offset] not in ("UNKNOWN", "UNI", "EMOJI"):
-                    candidates.append(raw_labels[i - offset])
-                if i + offset < len(raw_labels) and raw_labels[i + offset] not in ("UNKNOWN", "UNI", "EMOJI"):
-                    candidates.append(raw_labels[i + offset])
+            # Weighted vote: closer neighbours count more (weight = 3 - distance)
+            te_score = 0
+            en_score = 0
+            for offset in range(1, 4):
+                weight = 3 - offset  # offset 1→2, offset 2→1, offset 3→0
+                for idx in (i - offset, i + offset):
+                    if 0 <= idx < len(raw_labels):
+                        nb = raw_labels[idx]
+                        if nb == "TE":
+                            te_score += weight
+                        elif nb == "EN":
+                            en_score += weight
 
-            if candidates:
-                # Majority vote among neighbours
-                te_count = candidates.count("TE")
-                en_count = candidates.count("EN")
-                if te_count >= en_count:
-                    final_labels.append("TE")
-                else:
-                    final_labels.append("EN")
+            if te_score == 0 and en_score == 0:
+                # No informative neighbours — look at sentence-level majority
+                te_total = raw_labels.count("TE")
+                en_total = raw_labels.count("EN")
+                final_labels.append("TE" if te_total >= en_total else "EN")
             else:
-                # Default: assume Telugu
-                final_labels.append("TE")
+                final_labels.append("TE" if te_score >= en_score else "EN")
 
         return final_labels
 
