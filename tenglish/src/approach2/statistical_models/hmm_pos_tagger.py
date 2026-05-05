@@ -1,3 +1,4 @@
+import re
 """
 hmm_pos_tagger.py  (improved)
 HMM-based Part-of-Speech tagger for Tenglish (Telugu-English code-mixed) text.
@@ -196,13 +197,27 @@ class HMMPosTagger:
     def _heuristic_tag(self, word: str) -> str | None:
         low = word.lower()
         punct = {".", ",", "!", "?", ";", ":", "(", ")", "[", "]",
-                 "{", "}", "--", "...", "—", "…"}
+                 "{", "}", "--", "...", "—", "…",
+                 # multi-char punct common in Tenglish social media
+                 "..", "....", ".....", "??", "???", "????",
+                 "!!", "!!!", "!?", "?!", ":)", ":(", ":D", ":/",
+                 "xd", "xD", ">", "<", "/", "\\", "|", "~",
+                 "\\m/", "\\m\\", "*", "^", "="}
         if is_emoji_token(word):
             return "EMOJI"
         if low in punct:
             return "PUNC"
         if low.startswith(("http", "www.")) or low.startswith(("@", "#")):
             return "X"
+        # URLs without http, pic.twitter.com, t.co etc
+        if re.search(r"\.(com|org|net|co|ly|in|io)/", low):
+            return "X"
+        # Pure punctuation sequences not caught above
+        if re.match(r"^[^a-z0-9]+$", low) and len(low) >= 2:
+            return "PUNC"
+        # Emoticons and symbol sequences
+        if re.match(r"^[\\\\/*|~^=<>]+$", low):
+            return "PUNC"
         if self._looks_like_number(low):
             return "NUM"
 
@@ -212,8 +227,9 @@ class HMMPosTagger:
             "us", "them", "my", "your", "our", "their", "its", "it",
             # Telugu
             "nenu", "nuvvu", "meeru", "memu", "manam", "vaadu", "aame",
-            "adi", "naaku", "maaku", "meeku", "vaallu", "vaallaki",
-            "tantam", "tanu", "tanaki",
+            "adi", "idi", "naaku", "maaku", "meeku", "vaallu", "vaallaki",
+            "tantam", "tanu", "tanaki", "evaru", "emiti", "emi", "ela",
+            "ekkada", "eppudu", "vaallu", "mee", "naa", "ninnu", "nannu",
         }
         determiners = {
             "a", "an", "the", "this", "that", "these", "those",
@@ -221,13 +237,17 @@ class HMMPosTagger:
         }
         conjunctions = {
             "and", "or", "but", "because", "if", "though", "although",
-            "so", "yet", "nor", "kani", "kaani", "ledu", "ayina", "ante",
+            "so", "yet", "nor", "either", "neither", "while", "since",
+            "kani", "kaani", "ledu", "ayina", "ante", "mariyu", "ledha",
+            "inkaa", "kaabatti", "alage", "anduvalla",
         }
         adpositions = {
             "in", "on", "at", "to", "from", "with", "for", "of", "by",
             "into", "onto", "over", "under", "about", "between",
+            # Telugu postpositions
             "meeda", "ki", "ku", "lo", "tho", "nunchi", "varaku",
-            "gurinchi", "kosam", "mundhu", "venaka",
+            "gurinchi", "kosam", "mundhu", "venaka", "dwara", "valla",
+            "tarvata", "mundu", "lopala", "bayata", "daggara",
         }
         particles = {
             "not", "na", "kada", "emo", "ante", "ani", "okka",
